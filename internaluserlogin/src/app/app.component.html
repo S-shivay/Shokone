@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <!-- <p>
+    <mat-toolbar color="primary">
+      
+      <span>{{title}}</span>
+      
+    </mat-toolbar>
+  </p>
+  
+  
+  <nav mat-tab-nav-bar>
+    <a mat-tab-link
+       [routerLink]="['/register-component']"
+       routerLinkActive #rla1="routerLinkActive"
+       [active]="rla1.isActive">Register Page
+    </a>
+    <a mat-tab-link
+       [routerLink]="['/viewuser-component']"
+       routerLinkActive #rla1="routerLinkActive"
+       [active]="rla1.isActive">View User
+    </a>
+    
+  </nav> -->
+  <!-- The routed views render in the <router-outlet>-->
+    <!-- <router-outlet></router-outlet> -->
+    <nav mat-tab-nav-bar>
+      <!-- <li class="nav-item" role="presentation"><nav mat-tab-nav-bar> -->
+        <a mat-tab-link
+           [routerLink]="['/viewuser-component']"
+           routerLinkActive #rla1="routerLinkActive"
+           [active]="rla1.isActive">Internal User
+        </a>
+        <!-- <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true" onclick="window.location.href='InternalUser.html'">Internal User</button>
+      </li> -->
+      <a mat-tab-link
+           [routerLink]="['/clientaccount-component']"
+           routerLinkActive #rla1="routerLinkActive"
+           [active]="rla1.isActive">Client Account
+        </a>
+      <!-- <li class="nav-item" role="presentation">
+        <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false" onclick="window.location.href='ClientAccount.html'" >Client Account</button>
+      </li>
+      
+      <li class="nav-item" role="presentation">
+          <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false" onclick="window.location.href='ExternalUser.html'" >External User</button>
+        </li> -->
+        <a mat-tab-link
+           [routerLink]="['/externaluser-component']"
+           routerLinkActive #rla1="routerLinkActive"
+           [active]="rla1.isActive">External User
+
+        </a>
+      <li class="cp"><a href="ChangePassword.html" class="sideli">Change Password</a>&nbsp;&nbsp;| &nbsp;&nbsp;<a href="Index.html" class="sideli">Log Off</a></li>
+    </nav>
+    <router-outlet></router-outlet>
+</body>
+</html>

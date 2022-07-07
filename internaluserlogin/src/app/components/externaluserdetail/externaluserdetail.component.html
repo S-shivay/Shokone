@@ -1,0 +1,46 @@
+<div class="splitleft">
+    <div class="div1">
+     <table>
+         <tr>
+             <td><nav mat-tab-nav-bar>
+                <a mat-tab-link
+                       [routerLink]="['/updateexternaluser-component']"
+                       routerLinkActive #rla1="routerLinkActive"
+                       [active]="rla1.isActive"> Update Account
+                    </a></nav><router-outlet></router-outlet>
+            </td>
+        </tr>
+        <tr>
+            <td><nav mat-tab-nav-bar>
+                <a mat-tab-link
+                       [routerLink]="['/deactivateexternaluser-component']"
+                       routerLinkActive #rla1="routerLinkActive"
+                       [active]="rla1.isActive"> Deactivate Account
+                    </a></nav><router-outlet></router-outlet>
+           </td>
+       </tr>
+       <tr>
+           <td><nav mat-tab-nav-bar>
+            <a mat-tab-link
+                   [routerLink]="['/resetpasswordexternaluser-component']"
+                   routerLinkActive #rla1="routerLinkActive"
+                   [active]="rla1.isActive"> Reset Password
+                </a></nav><router-outlet></router-outlet>
+    </td>
+   </tr>
+     </table>
+    </div>
+  </div>
+  
+  <div class="splitright">
+    <div class="fm">
+      <h2>External User Details</h2>
+      <div class="form">
+          <fieldset class="fd">
+        <form action="" method="get">
+            
+        </form>
+    </fieldset>
+    </div>
+    </div>
+  </div>

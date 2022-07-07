@@ -1,0 +1,208 @@
+/* .example-container .mat-form-field + .mat-form-field {
+    margin-left: 8px;
+  }
+  
+  .example-right-align {
+    text-align: right;
+  }
+  
+  input.example-right-align::-webkit-outer-spin-button,
+  input.example-right-align::-webkit-inner-spin-button {
+    display: none;
+  }
+  
+  input.example-right-align {
+    -moz-appearance: textfield;
+  }
+  .example-button-row button,
+.example-button-row a {
+  margin-right: 8px;
+} */
+         .nav-pills{
+            background-color: rgb(30, 33, 38); 
+            height: 50px; 
+        }
+        .nav-link.active{
+            color: rgb(255, 166, 0);
+            box-sizing: border-box;
+            width: 100%;
+            border-radius: 0px;
+            background-color: black;
+        }
+        .nav-link:hover{
+            color: white;
+            box-sizing: border-box;
+            width: 100%;
+            border-radius: 0px;
+            background-color: rgb(59, 59, 59);
+        }
+        .em{
+            margin-top: -16px;
+            height: 25px;
+            width: 100%;
+            background-color: rgb(175, 186, 186);
+        }
+        .im{
+            width:30px;
+            height: 37px; 
+            margin-left: 50px;
+        }
+        .ig{
+            margin-top: 3%;
+            width:150px; 
+            height:20px; 
+            margin-right: 300px;
+        }
+        .cp{
+            margin-top: .7%;
+            margin-left: 83%;
+            color: black;
+        }
+        .sideli{
+            color: black;
+        }
+        .sideli:hover {
+            color: rgb(24, 21, 21);
+            text-decoration: underline;
+        }
+        .fl{
+            background-color: rgb(221, 224, 224);
+            height: max-content;
+            width: 90%;
+            margin-left: 5%;
+            border: 1px solid rgb(180, 182, 182);
+        }
+        .upper{
+            margin-left: 5%;
+        }
+    #ti{
+        padding: 3px;
+        width: 473.5px;
+        margin-left: 5px;
+        font-size: 14px;
+        border: 1px solid rgb(180, 182, 182);
+    } 
+    
+    .form{
+        margin-left: 25%;
+    }
+    .checkbox{
+        margin-left: 158px;
+    }
+    a{
+            text-decoration: none;
+        }
+    .firstp{
+        font-size: 15px;
+    }
+    .fname{
+            font-size: 15px;
+        }
+    .lname{
+            font-size: 15px;
+        }
+    .email{
+            font-size: 15px;
+        }
+    .preftime{
+        font-size: 15px;
+    }
+    .password{
+        font-size: 15px;
+    }
+    .confirmpassword{
+        font-size: 15px;
+    }
+    .roles{
+        font-size: 15px;
+    }
+    input:focus { 
+    outline: none !important;
+    border-color: rgb(106, 109, 109);
+    box-shadow: 0 0 5px rgb(68, 70, 70);
+    }
+    .ftext{
+        width: 52%;   
+        margin: 10px ;
+        margin-left: 78px;  
+        padding: 2px 2px;   
+        display: inline-block;   
+        border: 1px solid rgb(180, 182, 182);  
+        box-sizing: border-box;
+    }
+    
+    .ltext{
+        width: 52.1%;   
+        margin: 10px ;
+        margin-left: 80px;  
+        padding: 2px 2px;   
+        display: inline-block;   
+        border: 1px solid rgb(180, 182, 182);   
+        box-sizing: border-box;
+    }
+    .etext{
+        width: 52%;   
+        margin: 10px;
+        margin-left: 56px;  
+        padding: 2px 2px;   
+        display: inline-block;   
+        border: 1px solid rgb(180, 182, 182);  
+        box-sizing: border-box;
+    }
+    .passtext{
+        width: 52.2%;   
+        margin: 10px ;
+        margin-left: 88px;  
+        padding: 2px 2px;   
+        display: inline-block;   
+        border: 1px solid rgb(180, 182, 182);   
+        box-sizing: border-box;
+    }
+    .conpasstext{
+        width: 52.1%;   
+        margin: 10px ;
+        margin-left: 27px;  
+        padding: 2px 2px;   
+        display: inline-block;   
+        border: 1px solid rgb(180, 182, 182);;   
+        box-sizing: border-box;
+    }
+    .checkbox-text{
+        font-size: 14px;
+    }
+    .checkbx{
+        font-size: 14px;
+        margin-left: 114px;
+    }
+    .checkbox{
+        font-size: 14px;
+        margin-left: 156px;
+    }
+    .btn-primary{
+
+            background-color: orange;
+            border-radius: 0px;  
+            padding: 5px 12px 5px 12px;
+            font-size: 15px;
+            border: 1px solid orange;
+            margin-left: 200px;
+        }
+    .btn-primary:hover {
+            background-color:rgb(230, 155, 16);
+            border: 1px solid rgb(230, 155, 16);
+        }
+    .btn-secondary{
+            background-color: rgb(243, 235, 235);
+            color: black;
+            border-radius: 0px;  
+            padding: 5px 12px 5px 12px;
+            font-size: 15px;
+        }
+    .btn-secondary:hover{
+            background-color: rgb(164, 168, 168);
+            border: 1px solid rgb(164, 168, 168);
+        }
+    .checkregisteremail{
+        margin-left: 158px;
+    }
+  
