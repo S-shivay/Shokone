@@ -1,0 +1,134 @@
+h3{
+    font-size: 25px;
+    font-weight: 400;
+  }
+.splitleft {
+    margin-top: 5%;
+    height: 100%;
+    width: 30%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    left: 0;
+}
+
+/* Control the right side */
+.splitright {
+    margin-top: 5%;
+    height: 100%;
+    width: 70%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    right: 0;
+}
+/* fieldset css */
+.fd{
+    padding: 30px 50px 50px 50px;
+    border: 1px; 
+    background-color: rgb(221, 224, 224);
+    border: 1px solid rgb(180, 182, 182);
+    height: max-content;
+    width: 90%; 
+}
+.fl{
+    margin-top: 30px;
+    background-color: orange;
+}
+.cp{
+    margin-top: .7%;
+    margin-left: 83%;
+    color: black;
+}
+.sideli{
+    color: black;
+}
+.sideli:hover {
+    color: rgb(24, 21, 21);
+    text-decoration: underline;
+}
+tr,td{
+    margin-top: 10%;
+    border:  1px solid rgb(221, 224, 224);
+    background-color: transparent;
+    color: orange;
+    padding: 8px 8px 8px 8px;
+}
+.div1{
+    margin-left: 10%;
+}
+.bt{
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    color: orange;
+    font-size: 16px;
+    
+
+}
+.bt:hover{
+    color: rgb(209, 138, 7);
+    text-decoration: underline;
+}
+table{
+    width: 80%;
+    margin-top: 5%;
+    border:  1px solid rgb(221, 224, 224);
+}
+a{
+    text-decoration: none;
+}
+.fn{
+    position: relative;
+    float: left;
+    margin-right: 20%;
+    font-size: 15px;
+}
+.visi{
+    position: relative;
+    float: left;
+    margin-right: 5%;
+    font-size: 15px;
+}
+.requi{
+    position: relative;
+    float: left;
+    font-size: 15px;
+}
+input[type=checkbox]{
+    margin-left: 35%;
+    
+}
+.btu{
+    position: relative;
+    float: left;
+    margin-top: 5%;
+    margin-left: 20%;
+}
+.btn-primary{
+    background-color: orange;
+    border-radius: 0px;  
+    padding: 5px 12px 5px 12px;
+    font-size: 15px;
+    border: 1px solid orange;
+}
+.btn-primary:hover {
+    background-color:rgb(230, 155, 16);
+    border: 1px solid rgb(230, 155, 16);
+}
+.btn-secondary{
+    background-color: rgb(243, 235, 235);
+    color: black;
+    border-radius: 0px;  
+    padding: 5px 12px 5px 12px;
+    font-size: 15px;
+    margin-left: 10px;
+}
+.btn-secondary:hover{
+    background-color: rgb(164, 168, 168);
+    border: 1px solid rgb(164, 168, 168);
+}

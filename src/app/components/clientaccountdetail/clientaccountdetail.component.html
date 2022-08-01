@@ -1,0 +1,99 @@
+<div class="splitleft">
+    <div class="div1">
+     <table class="sidetable">
+         <tr class="sidetr">
+             <td class="sidetabletext"><a routerLink="/updateclientaccount-component" routerLinkActive ="active" class="sidelink"> Update Account
+            </a><router-outlet></router-outlet>
+            </td>
+        </tr>
+        <tr class="sidetr">
+            <td class="sidetabletext"><a routerLink="/deactivateclientaccount-component" routerLinkActive ="active" class="sidelink"> Deactivate Account
+            </a><router-outlet></router-outlet>
+           </td>
+       </tr>
+       <tr class="sidetr">
+        <td class="sidetabletext"><a routerLink="/manageusers-component" routerLinkActive ="active" class="sidelink"> Manage Users
+        </a><router-outlet></router-outlet>
+       </td>
+       <tr class="sidetr">
+        <td class="sidetabletext"><a routerLink="/managefields-component" routerLinkActive ="active" class="sidelink"> Manage Fields
+        </a><router-outlet></router-outlet>
+       </td>
+       <tr class="sidetr">
+        <td class="sidetabletext"><a routerLink="/manageemailnotification-component" routerLinkActive ="active" class="sidelink"> Manage Email Notification
+        </a><router-outlet></router-outlet>
+       </td>
+   </tr>
+     </table>
+    
+    </div>
+  </div>
+  
+  <div class="splitright">
+    <div class="fm">
+      <h3>Client Account Details</h3>
+      <div class="form">
+          <fieldset class="fd">
+        <form action="" method="get">
+             
+        </form>
+    </fieldset><br>
+    <h4>Products</h4><br>
+    <table class="table table-sm">
+        <thead>
+          <tr>
+            <th scope="col" class="tbpname">Product Name</th>
+            <th scope="col" class="tborder">Order Due In Days</th>
+            <th scope="col" class="tbdelivery">Deliverables</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td><a href="ProductDetail.html" class="productdetaillink">Details</a></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td><a href="ProductDetail.html" class="productdetaillink">Details</a></td>
+          </tr>
+        </tbody>
+        <tfoot>
+            <tr><td></td>
+                <td></td>
+                <td>&nbsp;</td>
+                <td></td>;</tr>
+        </tfoot>
+      </table> <br>
+    <h4>Email Templates</h4><br>
+    <table class="table table-sm">
+        <thead>
+          <tr>
+            <th scope="col" class="tbemailtype">Email Type Name</th>
+            <th scope="col" class="tbiscustom">Is Custom?</th>
+            <th scope="col" class="tbquestion">Questionnaire</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Forgot Password</td>
+            <td></td>
+            <td></td>
+            <td><a href="EmailTemplateDetail.html" class="emailtemplatelink">Details</a>&nbsp;|&nbsp;<a href="EditEmailTemplate.html" class="emailtemplatelink">Edit</a></td>
+          </tr>
+        </tbody>
+        <tfoot>
+            <tr><td></td>
+                <td></td>
+                <td>&nbsp;</td>
+                <td></td>;</tr>
+        </tfoot>
+      </table>
+    </div>
+    </div>
+  </div><br><br>

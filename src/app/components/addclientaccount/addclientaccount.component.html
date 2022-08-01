@@ -1,0 +1,53 @@
+<form [formGroup]="userForm" (ngSubmit)="onSubmit(userForm)">
+<div class="upper">
+    <h3>Add Client Account</h3>
+    <p class="firstp">Use the form below to add a new client account.</p>
+</div>
+<fieldset class="fl">
+   <label for="lname" class="lename"><b>Legal Name</b></label><input type="text" name="lname" class="letext" formControlName="legalName"  required><br>
+    <label for="fname" class="frname"><b>Friendly Name</b></label><input type="text" name="fname" class="frtext" formControlName="friendlyName" ><br>
+   <label for="acty" class="accounttype"><b>Account Type</b></label>
+        <select name="acty" id="acty" formControlName="Accounttype" required>
+            <option value=""></option>
+            <option value="artist">Artist</option>
+            <option value="th-py">Third-Party</option>
+            <option value="franchise">Franchise</option>
+            <option value="mul-nat">Multi-National</option>
+        </select><br><br>
+    <label for="pam" class="accountmanager"><b>Primary Account Manager</b></label>
+        <select name="pam" id="primaryaccountmanager" formControlName="primaryaccountmanager" required>
+            <option value=""></option>
+            <option value="001">Suchit Gupta</option>
+            <option value="002">Sean Harbinger</option>
+            <option value="003">Tremayne Terry</option>
+            <option value="004">Sarang Shivay Prajapati</option>
+        </select><br><br>
+    <!-- <label for="parac" class="parentaccount"><b>Parent Account</b></label>
+        <select name="parac" id="parentac" formControlName="parentaccount" >
+            <option value=""></option>
+            <option value="001">Digital One Trust</option>
+        </select><br><br> -->
+    <!-- <label for="product" class="products"><b>Products</b></label>
+        <input type="checkbox" class="checkbx" name="atlasworldengine" id="awe" onclick="checkbox(this)"><label for="atlasworldengine" class="atlascheck">Atlas World Engine</label>
+        <input type="text" id="awe2" class="atlastext" value="Atlas World Engine" disabled="disabled" /><br>
+        <div id="awediv" class="hidediv">
+            <label for="user" class="userlb"><b>D1T Username</b></label>
+            <input type="text" name="" id="d1tuser" formControlName="userName" ><br>
+             <label for="pass" class="passlb"><b>D1T Password</b></label>
+            <input type="password" id="d1tpass" formControlName="password"  ><br> 
+            <label for="cpass" class="cpasslb"><b>D1T Confirm Password</b></label>
+            <input type="password" id="d1tcpass" formControlName="confirmpassword" > 
+        </div> <br> -->
+        <label for="si" class="specialins"><b>Special Instruction</b></label><input type="file" name="fu" id="fu"><br><br>
+        <label for="hl" class="headerlogo"><b>Header Logo</b></label><input type="file" name="hl" id="hl" ><br><br>
+        <label for="favcolor" class="customnavbar"><b>Custom NavBar Colors</b></label>
+        <label for="bg" class="background">Background</label><br>
+        <input type="color" id="bg" name="bg" value="#FFFFFF" ><br><br>
+        <label for="ah" class="activehighlight">Active Highlight</label><br>
+        <input type="color" id="ah" name="ah" value="#FFFFFF" ><br><br>
+        <label for="itt" class="inactivetab">Inactive Tab Text</label><br>
+        <input type="color" id="itt" name="itt" value="#FFFFFF" ><br><br><br>
+        <div class="filres"><button type="submit" class="btn btn-lg btn-primary">Add Account</button>
+            <button type="button" class="btn btn-secondary btn-lg" onclick="window.location.href='ClientAccount.html'">Cancel</button></div><br><br>
+</fieldset>
+</form>

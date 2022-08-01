@@ -1,0 +1,162 @@
+h3{
+  font-size: 25px;
+  font-weight: 400;
+}
+  .mat-paginator {
+    display: flex;
+    justify-content: center;
+  }
+.splitright {
+  margin-top: 5%;
+  height: 100%;
+  width: 77%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+  right: 0;
+}
+/* button control */
+.div1{
+  margin-top: 3%;
+}
+.bt{
+  margin-top: 5%;
+  width: 100%;
+  margin-left: 2%;
+  border: 1px solid rgb(221, 224, 224);
+  background-color: transparent;
+  color: orange;
+  font-size: 16px;
+  padding: 7px 50px 7px 50px;
+
+}
+.bt:hover{
+  color: rgb(209, 138, 7);
+  text-decoration: underline;
+}
+/* fieldset css */
+.fd{
+  padding: 30px 50px 40px 50px;
+  border: 1px; 
+  background-color: rgb(221, 224, 224);
+  height: 180px;
+  width: 95%;
+  border: 1px solid rgb(180, 182, 182);
+}
+.fl{
+  margin-top: 30px;
+  background-color: orange;
+}
+.btn-primary{
+  background-color: orange;
+  border-radius: 0px;  
+  padding: 5px 12px 5px 12px;
+  font-size: 15px;
+  border: 1px solid orange;
+  margin-left: 39%;
+}
+.btn-primary:hover {
+  background-color:rgb(230, 155, 16);
+  border: 1px solid rgb(230, 155, 16);
+}
+.btn-secondary{
+  background-color: rgb(243, 235, 235);
+  color: black;
+  border-radius: 0px;  
+  padding: 5px 12px 5px 12px;
+  font-size: 15px;
+  margin-left: 1%;
+}
+.btn-secondary:hover{
+  background-color: rgb(164, 168, 168);
+  border: 1px solid rgb(164, 168, 168);
+}
+a{
+  text-decoration: none;
+}
+.ref{
+  margin-left: 5.8%;
+}
+#sts{
+  padding: 2px;
+  width: 25%;
+  display: inline-block;   
+  font-size: 14px;  
+  padding: 3px 3px;
+  border: 1px solid rgb(180, 182, 182);  
+  box-sizing: border-box;
+  margin-left: -0.8px;
+}
+.lename{
+  font-size: 15px;
+}
+.frname{
+  font-size: 15px;
+  margin-left: 3.5px;
+}
+.ref{
+  font-size: 15px;
+  margin-left: -1.8%;
+}
+.status{
+  font-size: 15px;
+  margin-left: 73px;
+}
+.letext{
+  width: 25%;
+  margin-right: 15%;
+  margin-bottom: 2%;
+  display: inline-block; 
+  font-size: 14px;  
+  padding: 3px 3px;
+  border: 1px solid rgb(180, 182, 182);  
+  box-sizing: border-box;
+}
+.frtext{
+  margin-left: -2px;
+  width: 25%;
+  margin-bottom: 2%;
+  display: inline-block;   
+  font-size: 14px;  
+  padding: 3px 3px;
+  border: 1px solid rgb(180, 182, 182);  
+  box-sizing: border-box;
+}
+.reftext{
+  width: 25%;
+  margin-right: 10%;
+  display: inline-block;   
+  font-size: 14px;  
+  padding: 3px 3px;
+  border: 1px solid rgb(180, 182, 182);  
+  box-sizing: border-box;
+}
+input:focus { 
+outline: none !important;
+border-color: rgb(106, 109, 109);
+box-shadow: 0 0 5px rgb(68, 70, 70);
+}
+select:focus { 
+outline: none !important;
+border-color: rgb(106, 109, 109);
+box-shadow: 0 0 5px rgb(68, 70, 70);
+}
+.downloadresult{
+  font-size: 14px;
+  color: orange;
+  float: right;
+  margin-right: 65px;
+}
+table{
+  margin-top: -4%;
+  width: 95%;
+  background-color: rgb(221, 224, 224);
+  margin-left: 1px;
+  font-size: 14px;
+}
+tbody{
+  background-color: white;
+  border-bottom: 1px solid rgb(134, 141, 141);
+}

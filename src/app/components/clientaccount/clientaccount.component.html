@@ -1,0 +1,89 @@
+<div class="splitleft">
+    <div class="div1">
+            <a routerLink="/addclientaccount-component" routerLinkActive ="active" class="bt">Add Client Account
+                </a><router-outlet></router-outlet>
+     <!-- <a href="AddClientAccount.html"><input type="button" value="Add Client Account" class="bt"></a> -->
+    </div>
+  </div>
+  
+  <div class="splitright">
+    <div class="fm">
+      <h3>Client Account</h3>
+      <div class="form">
+          <fieldset class="fd">
+            <label for="lename" class="lename"><b>Legal Name</b></label>&nbsp;&nbsp;<input type="text" name="lename" class="letext" (keyup)="applyFilter($event)">
+             <label for="frname" class="frname"><b>Friendly Name</b></label>&nbsp;&nbsp;<input type="text" name="flname" class="frtext" (keyup)="applyFilter($event)"><br> 
+             <label for="bilref" class="ref"><b>Reference No. </b></label>&nbsp;&nbsp;<input type="text" name="bilref" class="reftext" (keyup)="applyFilter($event)">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<label for="st" class="status"><b>Status</b></label>&nbsp;
+                <select name="status" id="sts" (keyup)="applyFilter($event)">
+                <option value=""></option>
+                <option value="active">Active</option>
+                <option value="inactive">Inactive</option>
+                </select><br><br>
+                <div class="filres"><button type="submit" class="btn btn-lg btn-primary">Filter</button>
+                    <button type="reset" class="btn btn-secondary btn-lg" >Reset</button></div>
+    </fieldset>
+    </div>
+    </div><br>
+    <a href="#" class="downloadresult">&#128229;Download Results</a><br>
+    <table class="table table-sm" mat-table [dataSource]="dataSource" matSort class="mat-elevation-z8">
+        <thead>
+          <tr>
+            <!-- <th scope="col" class="tblename">Legal Name</th>
+            <th scope="col" class="tbfrname">Friendly Name</th>
+            <th scope="col" class="tbrefno">Refrence No.</th>
+            <th scope="col" class="tbstatus">Status</th>
+            <th></th> -->
+            <ng-container matColumnDef="legalName">
+                <th mat-header-cell *matHeaderCellDef> Legal Name </th>
+                <td mat-cell *matCellDef="let element"> {{element.legalName}} </td>
+              </ng-container>
+              <ng-container matColumnDef="friendlyName">
+                <th mat-header-cell *matHeaderCellDef mat-sort-header="sort"> Friendly Name </th>
+                <td mat-cell *matCellDef="let element"> {{element.friendlyName}} </td>
+              </ng-container>
+              <ng-container matColumnDef="RefrenceNo">
+                <th mat-header-cell *matHeaderCellDef mat-sort-header="sort"> Refrence No. </th>
+                <td mat-cell *matCellDef="let element"> {{element.RefrenceNo}} </td>
+              </ng-container>
+              <ng-container matColumnDef="Status">
+                <th mat-header-cell *matHeaderCellDef> Status </th>
+                <td mat-cell *matCellDef="let element"> {{element.Status}} </td>
+              </ng-container>
+              <ng-container matColumnDef="Details">
+                <th mat-header-cell *matHeaderCellDef> Details </th>
+                <td mat-cell *matCellDef="let element">
+                <button mat-flat-button color="primary" type="button">Details</button>
+              </ng-container>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td><a routerLink="/clientaccountdetail-component" routerLinkActive ="active"> Details
+            </a><router-outlet></router-outlet></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td><a routerLink="/clientaccountdetail-component" routerLinkActive ="active"> Details
+            </a><router-outlet></router-outlet></td>
+          </tr>
+        </tbody>
+        <tfoot>
+            <tr><td></td>
+                <td></td>
+                <td>&nbsp;</td>
+                <td></td>
+                <td></td>;</tr>
+        </tfoot>
+        <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+      </table> <br>
+      <mat-paginator [pageSizeOptions]="[5,10,20]" showFirstLastButtons></mat-paginator>
+  </div>

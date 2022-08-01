@@ -1,0 +1,59 @@
+h3{
+    font-size: 25px;
+    font-weight: 400;
+  }
+.div1 {
+    margin-top: 5%;
+    height: max-content;
+    width: 90%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    right: 0;
+}
+.fd{
+    padding: 30px 50px 50px 50px;
+    border: 1px; 
+    height: 200px;
+    width: 90%;
+    background-color: rgb(221, 224, 224);
+    border: 1px solid rgb(180, 182, 182);
+}
+input[type=text]{
+    width: 70%;
+    padding: 1.5%;
+    font-size: 15px;
+}
+a{
+    text-decoration: none;
+}
+#msg{
+    margin-left: 15%;
+    margin-bottom: 14px;
+}
+.btn-primary{
+    background-color: orange;
+    border-radius: 0px;  
+    padding: 5px 12px 5px 12px;
+    font-size: 15px;
+    border: 1px solid orange;
+    margin-left: 35%;
+}
+.btn-primary:hover {
+    background-color:rgb(230, 155, 16);
+    border: 1px solid rgb(230, 155, 16);
+}
+.btn-secondary{
+    background-color: rgb(243, 235, 235);
+    color: black;
+    border-radius: 0px;  
+    padding: 5px 12px 5px 12px;
+    font-size: 15px;
+    margin-left: 1%;
+}
+.btn-secondary:hover{
+    background-color: rgb(164, 168, 168);
+    border: 1px solid rgb(164, 168, 168);
+}

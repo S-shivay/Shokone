@@ -1,0 +1,36 @@
+<fieldset class="fl">
+    <form action="post" class="fr">
+        <label for="name" class="lbname"><b>Name</b></label>
+        <input type="text" name="name" class="inname" required><br>
+        <label for="text" class="des"><b>Description</b></label>
+        <textarea name="text" id="te" cols="40" rows="5" class="tex"></textarea> <br> <br>
+        <div class="div3">
+            <label for="permi" class="permi"><b>Permissions</b></label></div>
+                      <div class="div4">
+                          <label for="optout" class="avper"></label> Available Permissions 
+                          <label for="optin" class="seper">Selected Permissions</label>  </div> <br>
+                          <div class="div5" aria-required="true">
+                          <select name="optout" multiple="multiple" id="selectBoxOne" size="5" class="selectListBox" >
+                              <option value="0" id="multiple0">Option 0</option>
+                              <option value="1" id="multiple1">Option 1</option>
+                              <option value="2" id="multiple2">Option 2</option>
+                              <option value="3" id="multiple3">Option 3</option>
+                              <option value="4" id="multiple4">Option 4</option>
+                              <option value="5" id="multiple5">Option 5</option>
+                          </select>
+                        
+                          <div class="div6">
+                          <button  class="button button3" onclick="move('right');">>></button><br>
+                          <button class="button button4" onclick="move('left');">&lt;&lt;</button>
+                          </div>
+                          
+                          <select name="optin" multiple="multiple" id="selectBoxSecond" size="5" class="selectListBox2">
+                            <option value="6" id="multiple6">Option 6</option>
+                              <option value="7" id="multiple7">Option 7</option>
+                              <option value="8" id="multiple8">Option 8</option> 
+                          </select></div> <br> <br> 
+                    <div class="bt"><button type="submit" class="btn btn-lg btn-primary">Save</button>
+                    <button type="reset" class="btn btn-secondary btn-lg" onclick="javascript:window.close()" >Cancel</button></div>
+                        
+    </form>
+</fieldset>

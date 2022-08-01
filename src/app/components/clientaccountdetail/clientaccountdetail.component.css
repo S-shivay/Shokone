@@ -1,0 +1,127 @@
+h3{
+    font-size: 25px;
+    font-weight: 400;
+  }
+.splitleft {
+    margin-top: 5%;
+    height: 100%;
+    width: 35%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    left: -80px;
+}
+
+/* Control the right side */
+.splitright {
+    margin-top: 5%;
+    height: 100%;
+    width: 78%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    right: 0;
+}
+/* button control */
+.bt{
+    margin-top: 5%;
+    width: 50%;
+    border-color: orange;
+    /* background-color: ; */
+    color: orange;
+}
+/* fieldset css */
+.fd{
+    padding: 30px 50px 50px 50px;
+    height: max-content;
+    background-color: rgb(221, 224, 224);
+    width: 95%;
+    border: 1px solid rgb(180, 182, 182);
+}
+.fl{
+    margin-top: 30px;
+    background-color: orange;
+}
+.div1{
+    margin-top: 3%;
+  }
+.sidetable{
+    border:  1px solid rgb(221, 224, 224);
+    width: 50%;
+    margin-left: 23%;
+}
+.sidetabletext{
+    margin-top: 5%;
+    width: 60%;
+    border:  1px solid rgb(221, 224, 224);
+    background-color: transparent;
+    color: orange;
+    font-size: 16px;
+    padding: 8px 15px 8px 15px;
+}
+.sidetr{
+    margin-top: 5%;
+    width: 60%;
+    border:  1px solid rgb(221, 224, 224);
+    background-color: transparent;
+    color: orange;
+    font-size: 16px;
+    padding: 8px 15px 8px 15px;
+}
+.sidelink{
+    color: orange;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+}
+.sidelink:hover{
+    color: rgb(209, 138, 7);
+    text-decoration: underline;
+}
+a{
+    text-decoration: none;
+}
+.pname{
+    float: left;
+}
+.orderdate{
+    float: left;
+    margin-left: 150px;
+}
+.deliver{
+    float: left;
+    margin-left: 150px;
+}
+.empty{
+    border-bottom: 1px solid rgb(183, 190, 197);
+    background-color: white;
+}
+.table{
+    margin-top: -4%;
+    width: 95%;
+    background-color: rgb(221, 224, 224);
+    margin-left: 1px;
+    font-size: 14px;
+}
+tbody{
+    background-color: white;
+    border-bottom: 1px solid rgb(134, 141, 141);
+}
+.productdetaillink{
+    color: orange;
+}
+.productdetaillink:hover{
+    color: rgb(209, 138, 7);
+    text-decoration: underline;
+}
+.emailtemplatelink{
+    color: orange;
+}
+.emailtemplatelink:hover{
+    color: rgb(209, 138, 7);
+    text-decoration: underline;
+}

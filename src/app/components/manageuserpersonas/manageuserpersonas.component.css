@@ -1,0 +1,81 @@
+h3{
+    font-size: 25px;
+    font-weight: 400;
+  }
+.splitleft {
+    margin-top: 5%;
+    height: 100%;
+    width: 30%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    left: 0;
+}
+
+/* Control the right side */
+.splitright {
+    margin-top: 5%;
+    height: 100%;
+    width: 70%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    right: 0;
+}
+.fl{
+    margin-top: 30px;
+    background-color: orange;
+}
+.cp{
+    margin-top: .7%;
+    margin-left: 83%;
+    color: black;
+}
+.sideli{
+    color: black;
+}
+.sideli:hover {
+    color: rgb(24, 21, 21);
+    text-decoration: underline;
+}
+.tb{
+    width: 70%;
+    margin-top: 5%;
+    border:  1px solid rgb(221, 224, 224);
+    margin-left: 10%;
+}
+.bt{
+    color: orange;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+}
+.bt:hover{
+    color: rgb(209, 138, 7);
+    text-decoration: underline;
+}
+.data{
+    margin-top: 10%;
+    border:  1px solid rgb(221, 224, 224);
+    background-color: transparent;
+    color: orange;
+    padding: 8px 8px 8px 8px;
+}
+a{
+    text-decoration: none;
+}
+.table{
+    margin-top: 2%;
+    width: 95%;
+    background-color: rgb(221, 224, 224);
+    margin-left: 1px;
+    font-size: 14px;
+}
+tbody{
+    background-color: white;
+    border-bottom: 1px solid rgb(134, 141, 141);
+}

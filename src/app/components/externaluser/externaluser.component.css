@@ -1,0 +1,165 @@
+h3{
+    font-size: 25px;
+    font-weight: 400;
+  }
+    .mat-paginator {
+      display: flex;
+      justify-content: center;
+    }
+.splitright {
+    margin-top: 5%;
+    height: max-content;
+    width: 95%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    right: 0;
+}
+/* button control */
+.bt{
+    margin-top: 5%;
+    width: 60%;
+    margin-left: -25%;
+    border: 1px solid rgb(221, 224, 224);
+    background-color: transparent;
+    color: orange;
+    font-size: 16px;
+    padding: 7px 15px 7px 15px;
+}
+.bt:hover{
+    color: rgb(209, 138, 7);
+    text-decoration: underline;
+}
+/* fieldset css */
+.fd{
+    padding: 30px 50px 40px 50px;
+    border: 1px; 
+    background-color: rgb(221, 224, 224);
+    height: 180px;
+    width: 95%;
+    border: 1px solid rgb(180, 182, 182);
+}
+.btn-primary{
+    background-color: orange;
+    border-radius: 0px;  
+    padding: 5px 12px 5px 12px;
+    font-size: 15px;
+    border: 1px solid orange;
+    margin-left: 43%;
+}
+.btn-primary:hover {
+    background-color:rgb(230, 155, 16);
+    border: 1px solid rgb(230, 155, 16);
+}
+.btn-secondary{
+    background-color: rgb(243, 235, 235);
+    color: black;
+    border-radius: 0px;  
+    padding: 5px 12px 5px 12px;
+    font-size: 15px;
+    margin-left: 1%;
+}
+.btn-secondary:hover{
+    background-color: rgb(164, 168, 168);
+    border: 1px solid rgb(164, 168, 168);
+}
+.filres{
+    margin-left: -50px;
+}
+.cp{
+    margin-top: .7%;
+    margin-left: 83%;
+    color: black;
+}
+.sideli{
+    color: black;
+}
+.sideli:hover {
+    color: rgb(24, 21, 21);
+    text-decoration: underline;
+}
+a{
+    text-decoration: none;
+}
+#sts{
+    padding: 3px;
+    width: 25.3%;
+    display: inline-block;
+    border: 1px solid rgb(180, 182, 182);  
+    box-sizing: border-box;
+    font-size: 14px;
+}
+select:focus { 
+outline: none !important;
+border-color: rgb(106, 109, 109);
+box-shadow: 0 0 5px rgb(68, 70, 70);
+}
+.fname{
+    font-size: 15px;
+    margin-left: 4%;
+}
+.lname{
+    font-size: 15px;
+    margin-left: 3px;
+}
+.email{
+    font-size: 15px;
+    margin-left: 7.3%;
+}
+.status{
+    font-size: 15px;
+    margin-left: 55px;
+}
+input:focus { 
+outline: none !important;
+border-color: rgb(106, 109, 109);
+box-shadow: 0 0 5px rgb(68, 70, 70);
+}
+.ftext{
+    width: 25%;
+    margin-right: 15%;
+    margin-bottom: 2%;
+    display: inline-block;   
+    padding: 3px 3px;
+    border: 1px solid rgb(180, 182, 182);  
+    box-sizing: border-box;
+    font-size: 14px;
+}
+.ltext{
+    width: 25%;
+    margin-bottom: 2%;
+    display: inline-block;   
+    padding: 3px 3px;
+    border: 1px solid rgb(180, 182, 182);  
+    box-sizing: border-box;
+    font-size: 14px;
+}
+.etext{
+    width: 25%;
+    margin-left: 0.8px;
+    margin-right: 10%;
+    display: inline-block;   
+    padding: 3px 3px;
+    border: 1px solid rgb(180, 182, 182);  
+    box-sizing: border-box;
+    font-size: 14px;
+}
+.downloadresult{
+    font-size: 14px;
+    color: orange;
+    float: right;
+    margin-right: 65px;
+}
+table{
+    margin-top: -4%;
+    width: 95%;
+    background-color: rgb(221, 224, 224);
+    margin-left: 1px;
+    font-size: 14px;
+  }
+  tbody{
+    background-color: white;
+    border-bottom: 1px solid rgb(134, 141, 141);
+  }

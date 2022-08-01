@@ -1,0 +1,100 @@
+<div class="splitright">
+    <div class="fm">
+      <h3>External Users</h3>
+      <div class="div2">
+          <fieldset class="fd">
+       
+             <label for="fname" class="fname"><b>First Name</b></label>&nbsp;&nbsp;<input type="text" name="fname" class="ftext"  (keyup)="applyFilter($event)" > 
+             <label for="lname" class="lname" ><b>Last Name</b></label>&nbsp;&nbsp;<input type="text" name="lname" class="ltext"  (keyup)="applyFilter($event)"><br> 
+              <label for="em" class="email" ><b>Email</b></label>&nbsp;&nbsp;<input type="email" name="em" class="etext"  (keyup)="applyFilter($event)" > 
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<label for="st" class="status"><b>Status</b></label>&nbsp;
+                <select name="status" id="sts"  (keyup)="applyFilter($event)" >
+                <option value=""></option>
+                <option value="active">Active</option>
+                <option value="inactive">Inactive</option>
+                </select><br><br>
+            <div class="filres"><button type="submit" class="btn btn-lg btn-primary">Filter</button>
+                <button type="reset" class="btn btn-secondary btn-lg" >Reset</button></div>
+    </fieldset>
+    </div></div><br>
+    <a href="#" class="downloadresult">&#128229;Download Results</a><br>
+    <table class="table table-sm" >
+        <thead>
+          <tr>
+            <!-- <th scope="col" class="tbfname">First Name</th>
+            <th scope="col" class="tblname">Last Name</th>
+            <th scope="col" class="tbemail">Email</th>
+            <th scope="col" class="tbstatus">Status</th>
+            <th scope="col" class="tbtype">Type</th>
+            <th scope="col" class="tbclientaccount">Client Accounts</th>
+            <th></th> -->
+            <ng-container matColumnDef="firstName">
+              <th mat-header-cell *matHeaderCellDef> First Name </th>
+              <td mat-cell *matCellDef="let element"> {{element.firstName}} </td>
+            </ng-container>
+            <ng-container matColumnDef="lastName">
+              <th mat-header-cell *matHeaderCellDef> Last Name </th>
+              <td mat-cell *matCellDef="let element"> {{element.lastName}} </td>
+            </ng-container>
+            <ng-container matColumnDef="email">
+              <th mat-header-cell *matHeaderCellDef> Email </th>
+              <td mat-cell *matCellDef="let element"> {{element.email}} </td>
+            </ng-container>
+            <ng-container matColumnDef="Status">
+              <th mat-header-cell *matHeaderCellDef> Status </th>
+              <td mat-cell *matCellDef="let element"> {{element.Status}} </td>
+            </ng-container>
+            <ng-container matColumnDef="email">
+              <th mat-header-cell *matHeaderCellDef> Email </th>
+              <td mat-cell *matCellDef="let element"> {{element.email}} </td>
+            </ng-container>
+            <ng-container matColumnDef="type">
+              <th mat-header-cell *matHeaderCellDef> Type </th>
+              <td mat-cell *matCellDef="let element"> {{element.type}} </td>
+            </ng-container>
+            <ng-container matColumnDef="ClientAccounts">
+              <th mat-header-cell *matHeaderCellDef> Client Accounts </th>
+              <td mat-cell *matCellDef="let element"> {{element.ClientAccounts}} </td>
+            </ng-container>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>
+              <a routerLink="/externaluserdetail-component" routerLinkActive ="active"> Details
+                  </a><router-outlet></router-outlet></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>
+              <a routerLink="/externaluserdetail-component" routerLinkActive ="active"> Details
+                  </a><router-outlet></router-outlet></td>
+          </tr>
+        </tbody>
+        <tfoot>
+            <tr><td></td>
+                <td></td>
+                <td>&nbsp;</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>;</tr>
+        </tfoot>
+        <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+      </table> <br>
+      <mat-paginator [pageSizeOptions]="[5,10,20]" showFirstLastButtons></mat-paginator>
+  </div>

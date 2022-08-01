@@ -1,0 +1,74 @@
+h3{
+    font-size: 25px;
+    font-weight: 400;
+  }
+.splitleft {
+            margin-top: 5%;
+            height: 100%;
+            width: 35%;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            overflow-x: hidden;
+            padding-top: 20px;
+            left: 0;
+        }
+.splitright {
+    margin-top: 5%;
+    height: 100%;
+    width: 78%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    right: 0;
+}
+/* button control */
+.bt{
+    margin-top: 5%;
+    width: 50%;
+    border-color: orange;
+    /* background-color: ; */
+    color: orange;
+}
+/* fieldset css */
+.fd{
+    padding: 30px 50px 50px 50px;
+    border: 1px; 
+    height: max-content;
+    width: 90%; 
+    background-color: rgb(221, 224, 224);
+    border: 1px solid rgb(180, 182, 182);
+}
+.fl{
+    margin-top: 30px;
+    background-color: orange;
+}tr,td{
+    margin-top: 5%;
+    width: 60%;
+    margin-left: -25%;
+    border:  1px solid rgb(221, 224, 224);
+    background-color: transparent;
+    color: orange;
+    font-size: 16px;
+    padding: 8px 15px 8px 15px;
+    
+}
+.bt{
+    color: orange;
+    font-size: 15px;
+}
+.bt:hover{
+    color: rgb(209, 138, 7);
+    text-decoration: underline;
+}
+table{
+    border:  1px solid rgb(221, 224, 224);
+    margin-left: 8%;
+    margin-top: 2%;
+}
+
+a{
+    text-decoration: none;
+}

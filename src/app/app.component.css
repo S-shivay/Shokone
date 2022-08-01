@@ -1,0 +1,36 @@
+.nav-pills{
+    background-color: rgb(30, 33, 38); 
+    height: 50px; 
+}
+.nav-link.active{
+    color: rgb(255, 166, 0);
+    box-sizing: border-box;
+    width: 100%;
+    border-radius: 0px;
+    background-color: black;
+}
+.nav-link:hover{
+    color: white;
+    box-sizing: border-box;
+    width: 100%;
+    border-radius: 0px;
+    background-color: rgb(59, 59, 59);
+}
+.em{
+    margin-top: -16px;
+    height: 25px;
+    width: 100%;
+    background-color: rgb(175, 186, 186);
+}
+.cp{
+    margin-top: .7%;
+    margin-left: 83%;
+    color: black;
+}
+.sideli{
+    color: black;
+}
+.sideli:hover {
+    color: rgb(24, 21, 21);
+    text-decoration: underline;
+}

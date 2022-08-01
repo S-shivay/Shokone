@@ -1,0 +1,265 @@
+h3{
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: 25px;
+  }
+.fl{
+    background-color: rgb(221, 224, 224);
+    height: max-content;
+    width: 90%;
+    margin-left: 5%;
+    border: 1px solid rgb(180, 182, 182);
+    font-size: 15px;
+}
+.upper{
+    margin-left: 5%;
+} 
+a{
+    text-decoration: none;
+}
+.form{
+margin-left: 25%;
+}
+input[type=color]{
+width: 200px;
+margin-left: 18.6%;
+}
+input:focus { 
+outline: none !important;
+border-color: rgb(106, 109, 109);
+box-shadow: 0 0 5px rgb(68, 70, 70);
+}
+select:focus { 
+outline: none !important;
+border-color: rgb(106, 109, 109);
+box-shadow: 0 0 5px rgb(68, 70, 70);
+}
+#pe2{
+margin-left: 14%;
+width: 14%;
+}
+#exus{
+margin-top: 2%;
+}
+.exis{
+margin-top: 2%;
+}
+.fname{
+margin-left: 20%;
+}
+.fnametext{
+margin-left: 7.3%;
+margin-bottom: 20px;
+width: 52.3%;   
+padding: 2px 2px;   
+display: inline-block;   
+border: 1px solid rgb(180, 182, 182);  
+box-sizing: border-box;
+font-size: 14px;
+}
+.lname{
+margin-left: 20%;
+}
+.lnametext{
+margin-left: 7.5%; 
+margin-bottom: 20px;
+width: 52.3%;   
+padding: 2px 2px;   
+display: inline-block;   
+border: 1px solid rgb(180, 182, 182);  
+box-sizing: border-box;
+font-size: 14px;
+}
+.email{
+    margin-left: 20%;
+}
+#emailtext{
+margin-left: 5.4%;
+margin-bottom: 20px;
+width: 52.3%;   
+padding: 2px 2px;   
+display: inline-block;   
+border: 1px solid rgb(180, 182, 182);  
+box-sizing: border-box;
+font-size: 14px;
+}
+.sso{
+margin-left: 20%;
+}
+.checkbx{
+margin-left: 3.5%;
+}
+#pediv{
+display: none;
+}
+.idpro{
+margin-left: -20px;
+}
+#idpro{
+width: 52.1%;
+margin-left: 2.3%;
+padding: 3px 3px;   
+display: inline-block;   
+border: 1px solid rgb(180, 182, 182);  
+box-sizing: border-box;
+font-size: 14px;
+}
+#prefelan{
+width: 52.1%;
+margin-left: 2.1%;
+padding: 3px 3px;   
+display: inline-block;   
+border: 1px solid rgb(180, 182, 182);  
+box-sizing: border-box;
+font-size: 14px;
+}
+#prefetime{
+width: 52.1%;
+margin-left: 1.6%;
+padding: 3px 3px;   
+display: inline-block;   
+border: 1px solid rgb(180, 182, 182);  
+box-sizing: border-box;
+font-size: 14px;
+}
+#prefecul{
+width: 52.1%;
+margin-left: 3.5%;
+padding: 3px 3px;   
+display: inline-block;   
+border: 1px solid rgb(180, 182, 182);  
+box-sizing: border-box;
+font-size: 14px;
+}
+.prelan{
+margin-left: 20%;
+}
+.pretime{
+margin-left: 20%;
+}
+.precul{
+margin-left: 20%;
+}
+.swapemail{
+margin-left: 166px;
+}
+.div3{
+position: relative;
+float: left;
+margin-left: 6.3%;
+}
+.div4{
+position: relative;
+float: left;
+margin-left: 9.5%;
+}
+.optin{
+margin-left: 290px;
+}
+.selectListBox{
+position: relative;
+float: left;
+width: 20%;
+margin-left: 33.5%;
+padding: 2px 2px;   
+display: inline-block;   
+border: 1px solid rgb(180, 182, 182);  
+box-sizing: border-box;
+font-size: 14px;
+}
+.div6{
+position: relative;
+float: left;
+margin-left: 30px;
+margin-top: 20px;
+}
+.selectListBox2{
+position: relative;
+float: left;
+width: 20%;
+margin-left: 2.6%;
+padding: 2px 2px;   
+display: inline-block;   
+border: 1px solid rgb(180, 182, 182);  
+box-sizing: border-box;
+font-size: 14px;
+}
+.dis0{
+clear: both;
+position: static;
+margin-top: 2%;
+margin-left: -14%;
+}
+#dis0{
+margin-left: 5.5%;
+}
+.p{
+margin-left: 20.8%;
+}
+.ro{
+margin-left: 20%;
+}
+.ficheck{
+margin-left: 5.4%;
+}
+.check{
+margin-left: 18.3%;
+}
+.butt{
+margin-right: 25%;
+}
+.sub{
+background-color: orange;
+color: white;
+}
+.button3{
+padding: 2px 8px 2px 8px;
+margin-top: -20px;
+margin-bottom: 20%;
+border: 1px solid rgb(180, 182, 182); 
+}
+.button3:hover{
+background-color: rgb(114, 116, 116) ;
+border: 1px solid rgb(84, 85, 85);
+}
+.button4{
+padding: 2px 8px 2px 8px;
+border: 1px solid rgb(180, 182, 182); 
+}
+.button4:hover{
+background-color: rgb(114, 116, 116) ;
+border: 1px solid rgb(84, 85, 85);
+}
+#persona{
+width: 52.1%;
+margin-left: 8.8%;
+padding: 3px 3px;   
+display: inline-block;   
+border: 1px solid rgb(180, 182, 182);  
+box-sizing: border-box;
+font-size: 14px;
+}
+.btn-primary{
+    background-color: orange;
+    border-radius: 0px;  
+    padding: 0px 5px 0px 5px;
+    font-size: 15px;
+    border: 1px solid orange;
+    margin-left: 40%;
+}
+.btn-primary:hover {
+    background-color:rgb(230, 155, 16);
+    border: 1px solid rgb(230, 155, 16);
+}
+.btn-secondary{
+    background-color: rgb(243, 235, 235);
+    color: black;
+    border-radius: 0px;  
+    padding: 0px 5px 0px 5px;
+    font-size: 15px;
+    margin-left: 1%;
+}
+.btn-secondary:hover{
+    background-color: rgb(164, 168, 168);
+    border: 1px solid rgb(164, 168, 168);
+}
