@@ -1,0 +1,118 @@
+.fl{
+    background-color: rgb(221, 224, 224);
+    height: max-content;
+    width: 90%;
+    margin-left: 5%;
+    border: 1px solid rgb(180, 182, 182);
+}
+.upper{
+    margin-left: 5%;
+}
+.form{
+margin-left: 25%;
+padding-top: 2%;
+}
+
+a{
+    text-decoration: none;
+}
+.firstp{
+font-size: 14px;
+}
+.tname{
+margin-left: -20%;
+position: relative;
+float: left;
+font-size: 15px;
+}
+.cc{
+margin-left: -14.2%;
+font-size: 15px;
+}
+.lang{
+position: relative;
+float: left;
+margin-left: -14.9%;
+font-size: 15px;
+}
+.sub{
+margin-left: -13%;
+font-size: 15px;
+}
+.body{
+position: relative;
+float: left;
+margin-left: -16.6%;
+font-size: 15px;
+}
+.forgotpassword{
+margin-left: -30px;
+font-size: 14px;
+}
+#cc{
+margin-left: 17.5px;
+width: 95%;   
+margin-bottom: 10px ; 
+display: inline-block;   
+padding: 3px 3px;
+border: 1px solid rgb(180, 182, 182);  
+box-sizing: border-box;  
+font-size: 14px;
+}
+.English{
+margin-left: -30px;
+font-size: 14px;
+}
+.subtext{
+font-size: 14px;
+margin-left: 17.5px;
+width: 95%;   
+margin-bottom: 10px ; 
+display: inline-block;   
+padding: 3px 3px;
+border: 1px solid rgb(180, 182, 182);  
+box-sizing: border-box;  
+}
+#htmbody{
+margin-left: -44px;
+font-size: 14px;
+width: 95%;   
+margin-bottom: 10px ; 
+display: inline-block;   
+padding: 3px 3px;
+border: 1px solid rgb(180, 182, 182);  
+box-sizing: border-box; 
+}
+.submit{
+margin-top: 10px;
+background-color: orange;
+color: white;
+margin-left: 10px;
+}
+.cancel{
+margin-top: 10px;
+margin-left: 80%;
+}
+.btn-secondary{
+    background-color: orange;
+    border-radius: 0px;  
+    padding: 5px 12px 5px 12px;
+    font-size: 15px;
+    border: 1px solid orange;
+}
+.btn-secondary:hover {
+    background-color:rgb(230, 155, 16);
+    border: 1px solid rgb(230, 155, 16);
+}
+.btn-primary{
+    background-color: rgb(243, 235, 235);
+    color: black;
+    border-radius: 0px;  
+    padding: 5px 12px 5px 12px;
+    font-size: 15px;
+    margin-left: 81%;
+}
+.btn-primary:hover{
+    background-color: rgb(164, 168, 168);
+    border: 1px solid rgb(164, 168, 168);
+}

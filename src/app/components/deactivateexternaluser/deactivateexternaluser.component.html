@@ -5,7 +5,8 @@
           <fieldset class="fd">
             <input type="text" name="message" id="msg" value="Clicking Deactivate User will deactivate the exernal user. If you do not wish to continue, click Cancel." disabled="disabled"><br>
             <div class="filres"><button type="submit" class="btn btn-lg btn-primary">Deactive User</button>
-                <button type="reset" class="btn btn-secondary btn-lg" onclick="window.location.href='ExternalUserDetail.html'" >Cancel</button></div>
+                <button type="cancel" class="btn btn-secondary btn-lg"><a routerLink="/externaluserdetail-component" routerLinkActive ="active" class="sidelink"> Cancel
+                </a><router-outlet></router-outlet></button></div>
     </fieldset>
     </div>
     </div>

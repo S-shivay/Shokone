@@ -11,5 +11,24 @@ export class ManageemailnotificationComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+  
+  // move(sens:any) {
+      
+  //   var i, sourceSel, targetSel; 
+    
+  //   if (sens == 'right') {
+  //     sourceSel = document.getElementById('selectBoxOne'); 
+  //     targetSel = document.getElementById('selectBoxSecond');
+  //   } else {
+  //     sourceSel = document.getElementById('selectBoxSecond'); 
+  //     targetSel = document.getElementById('selectBoxOne');
+  //   }
+       
+  //   i = sourceSel.options.length;
+  //   while (i--) {
+  //     if (sourceSel.options[i].selected) {
+  //       targetSel.appendChild(sourceSel.options[i]);
+  //     }
+  //   }
+  //   }
 }

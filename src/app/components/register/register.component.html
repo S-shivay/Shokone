@@ -227,14 +227,25 @@
         <!-- <mat-form-field appearance="fill"><input checked="checked" data-val="true" data-val-required="The Send registration email notification to new user? field is required." disabled="disabled" id="SendUserRegistrationEmail" name="SendUserRegistrationEmail" type="checkbox" value="true"  class="checkregisteremail" /><input name="SendUserRegistrationEmail"  value="false" formControlName="sendemailnotification" matInput />
         <label class="checkbox-text" for="SendUserRegistrationEmail"><mat-label>Send registration email notification to new user?</mat-label></label></mat-form-field><br><br> -->
         <label class="roles" for="SelectedRoleIds" required><b>Roles</b></label>
-        <label class="checkbx"><input id="SelectedRoleIds_d1t" name="SelectedRoleIds" type="checkbox" value="d1t admin"  />D1T Administration</label><br>
-            <label class="checkbox"><input id="SelectedRoleIds_ClientAccountManager" name="SelectedRoleIds" type="checkbox" value="ClientAccountManager" />Client Account Manager</label><br>
-            <label class="checkbox"><input id="SelectedRoleIds_AccountRepresentative" name="SelectedRoleIds" type="checkbox" value="AccountRepresentative" />Client Account Representative</label><br>
-            <label class="checkbox"><input id="SelectedRoleIds_ClientManagement" name="SelectedRoleIds" type="checkbox" value="ClientManagement" />Client Management</label><br>
-            <label class="checkbox"><input id="SelectedRoleIds_UserManagement" name="SelectedRoleIds" type="checkbox" value="UserManagement" />User Management</label><br>
-                <span class="field-validation-valid" data-valmsg-for="SelectedRoleIds" data-valmsg-replace="true"></span><br><br>
+        <label class="checkbx"><input id="SelectedRoleIds_d1t" name="SelectedRoleIds" type="checkbox" value="Meta360Administrator"  />Meta360 Administrator</label>&nbsp;<span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-info-square-fill" viewBox="0 0 16 16">
+          <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm8.93 4.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM8 5.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+        </svg><span class="info">Allows to simply login to Admin portal and view current client accounts and users</span></span><br>
+            <label class="checkbox"><input id="SelectedRoleIds_ClientAccountManager" name="SelectedRoleIds" type="checkbox" value="ClientAccountManager" />Client Account Manager</label>&nbsp;<span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-info-square-fill" viewBox="0 0 16 16">
+              <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm8.93 4.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM8 5.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+            </svg><span class="info">Allows ability to create, configure, modify and publish client accounts as well as managing external client users</span></span><br>
+            <label class="checkbox"><input id="SelectedRoleIds_AccountRepresentative" name="SelectedRoleIds" type="checkbox" value="GlobalSettingstabviewer" />Global Settings tab viewer</label>&nbsp;<span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-info-square-fill" viewBox="0 0 16 16">
+              <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm8.93 4.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM8 5.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+            </svg><span class="info">Allows access for internal user to view Global Settings tab</span></span><br>
+            <label class="checkbox"><input id="SelectedRoleIds_ClientManagement" name="SelectedRoleIds" type="checkbox" value="ClientUser-APIReader" />Client User - API Reader</label>&nbsp;<span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-info-square-fill" viewBox="0 0 16 16">
+              <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm8.93 4.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM8 5.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+            </svg><span class="info"> Allows ability to read data from APIs</span></span><br>
+            <label class="checkbox"><input id="SelectedRoleIds_UserManagement" name="SelectedRoleIds" type="checkbox" value="ClientUser-APIWriter" />Client User - API Writer</label> 	&nbsp;<span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-info-square-fill" viewBox="0 0 16 16">
+              <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm8.93 4.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM8 5.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+            </svg><span class="info">Allows ability to write information via APIs</span></span><br>
+                <span class="field-validation-valid" data-valmsg-for="SelectedRoleIds" data-valmsg-replace="true"></span><br>
                 <div class="filres"><button mat-flat-button type="submit" class="btn btn-lg btn-primary">Add User</button>
-                    <button mat-flat-button type="Cancel" class="btn btn-secondary btn-lg" onclick="window.location.href='InternalUser.html'">Cancel</button></div><br><br>
+                    <button mat-flat-button type="Cancel" class="btn btn-secondary btn-lg"><a routerLink="/viewuser-component" routerLinkActive ="active" class="sidelink"> Cancel
+                    </a><router-outlet></router-outlet></button></div><br><br>
     
 </fieldset>
 </form>

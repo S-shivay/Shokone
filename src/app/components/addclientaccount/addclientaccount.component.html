@@ -5,14 +5,11 @@
 </div>
 <fieldset class="fl">
    <label for="lname" class="lename"><b>Legal Name</b></label><input type="text" name="lname" class="letext" formControlName="legalName"  required><br>
-    <label for="fname" class="frname"><b>Friendly Name</b></label><input type="text" name="fname" class="frtext" formControlName="friendlyName" ><br>
+    <label for="adress" class="walletaddress"><b>Wallet Address</b></label><input type="text" name="adress" class="addresstext" formControlName="walletAddress" required=""><br>
    <label for="acty" class="accounttype"><b>Account Type</b></label>
         <select name="acty" id="acty" formControlName="Accounttype" required>
             <option value=""></option>
-            <option value="artist">Artist</option>
-            <option value="th-py">Third-Party</option>
-            <option value="franchise">Franchise</option>
-            <option value="mul-nat">Multi-National</option>
+            <option value="artist">Commerce</option>
         </select><br><br>
     <label for="pam" class="accountmanager"><b>Primary Account Manager</b></label>
         <select name="pam" id="primaryaccountmanager" formControlName="primaryaccountmanager" required>
@@ -39,7 +36,10 @@
             <input type="password" id="d1tcpass" formControlName="confirmpassword" > 
         </div> <br> -->
         <label for="si" class="specialins"><b>Special Instruction</b></label><input type="file" name="fu" id="fu"><br><br>
-        <label for="hl" class="headerlogo"><b>Header Logo</b></label><input type="file" name="hl" id="hl" ><br><br>
+        <label for="banimg" class="bannerimage"><b>Banner Image</b></label><input type="file" name="banimg" id="banimg" required><br><br>
+        <label for="hl" class="headerlogo"><b>Header Logo</b></label><input type="file" name="hl" id="hl" required><br><br>
+        <label for="hlabel" class="hlabel"><b>Header Label</b></label><input type="text" name="hlabel" class="headlab" formControlName="legalName"  >
+        <label for="label" class="label"><b>Label</b></label><input type="text" name="label" class="lab" formControlName="legalName"  ><br>
         <label for="favcolor" class="customnavbar"><b>Custom NavBar Colors</b></label>
         <label for="bg" class="background">Background</label><br>
         <input type="color" id="bg" name="bg" value="#FFFFFF" ><br><br>
@@ -48,6 +48,7 @@
         <label for="itt" class="inactivetab">Inactive Tab Text</label><br>
         <input type="color" id="itt" name="itt" value="#FFFFFF" ><br><br><br>
         <div class="filres"><button type="submit" class="btn btn-lg btn-primary">Add Account</button>
-            <button type="button" class="btn btn-secondary btn-lg" onclick="window.location.href='ClientAccount.html'">Cancel</button></div><br><br>
+            <button type="button" class="btn btn-secondary btn-lg"><a routerLink="/clientaccount-component" routerLinkActive ="active" class="sidelink"> Cancel
+            </a><router-outlet></router-outlet></button></div><br><br>
 </fieldset>
 </form>

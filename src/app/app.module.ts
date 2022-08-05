@@ -25,7 +25,6 @@ import { DeactivateclientaccountComponent } from './components/deactivateclienta
 import { ManageemailnotificationComponent } from './components/manageemailnotification/manageemailnotification.component';
 import { ManagefieldsComponent } from './components/managefields/managefields.component';
 import { ManageusersComponent } from './components/manageusers/manageusers.component';
-import { ViewclientaccountComponent } from './components/viewclientaccount/viewclientaccount.component';
 import { ManageuserpersonasComponent } from './components/manageuserpersonas/manageuserpersonas.component';
 import { ManageuseradduserComponent } from './components/manageuseradduser/manageuseradduser.component';
 import { DownloadusersComponent } from './components/downloadusers/downloadusers.component';
@@ -36,6 +35,11 @@ import { DeactivateinternaluserComponent } from './components/deactivateinternal
 import { ResetpasswordinternaluserComponent } from './components/resetpasswordinternaluser/resetpasswordinternaluser.component';
 import { UpdateinternaluserComponent } from './components/updateinternaluser/updateinternaluser.component';
 import { GlobalsettingComponent } from './components/globalsetting/globalsetting.component';
+import { DetailsforgotComponent } from './components/detailsforgot/detailsforgot.component';
+import { EditforgotComponent } from './components/editforgot/editforgot.component';
+import { AccountexternalComponent } from './components/accountexternal/accountexternal.component';
+import { ProductdetailComponent } from './components/productdetail/productdetail.component';
+import { ChangepasswordComponent } from './components/changepassword/changepassword.component';
 
 
 @NgModule({
@@ -58,7 +62,6 @@ import { GlobalsettingComponent } from './components/globalsetting/globalsetting
     ManageemailnotificationComponent,
     ManagefieldsComponent,
     ManageusersComponent,
-    ViewclientaccountComponent,
     ManageuserpersonasComponent,
     ManageuseradduserComponent,
     DownloadusersComponent,
@@ -69,6 +72,11 @@ import { GlobalsettingComponent } from './components/globalsetting/globalsetting
     ResetpasswordinternaluserComponent,
     UpdateinternaluserComponent,
     GlobalsettingComponent,
+    DetailsforgotComponent,
+    EditforgotComponent,
+    AccountexternalComponent,
+    ProductdetailComponent,
+    ChangepasswordComponent,
   ],
   imports: [
     BrowserModule,

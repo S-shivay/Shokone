@@ -31,7 +31,7 @@ h3{
     padding: 30px 50px 40px 50px;
     border: 1px; 
     background-color: rgb(221, 224, 224);
-    height: max-content;
+    height: auto;
     width: 95%;
     border: 1px solid rgb(180, 182, 182);
     font-size: 14px;
@@ -40,7 +40,7 @@ h3{
     margin-top: 30px;
     background-color: orange;
 }
-tr,td{
+.sidetr .sidetd{
     margin-top: 5%;
     width: 60%;
     margin-left: -25%;
@@ -64,9 +64,26 @@ tr,td{
     color: rgb(209, 138, 7);
     text-decoration: underline;
 }
-table{
+.sidetable{
     border:  1px solid rgb(221, 224, 224);
 }
 a{
     text-decoration: none;
+}
+.detailtable{
+    border:  1px solid rgb(221, 224, 224);
+    margin-left: 8%;
+    margin-top: 2%;
+}
+.detailtr .detailtd{
+    margin-top: 5%;
+    width: 60%;
+    margin-left: -25%;
+    border:  1px solid rgb(221, 224, 224);
+    background-color: transparent;
+    color: black;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 8px 15px 8px 15px;
+    
 }

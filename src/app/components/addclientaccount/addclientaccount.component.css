@@ -21,33 +21,77 @@ font-size: 15px;
 font-size: 15px;
 margin-left: 20%;
 }
-.frname{
+.lename:after {
+    content:" *";
+    color: red;
+}
+.hlabel{
+    font-size: 15px;
+    margin-left: 20%;
+    }
+    .label{
+        font-size: 15px;
+        margin-left: 20%;
+        }
+.walletaddress{
 font-size: 15px;
 margin-left: 20%;
+}
+.walletaddress:after {
+    content:" *";
+    color: red;
 }
 .accounttype{
     margin-left: 20%;
 font-size: 15px;
 }
+.accounttype:after {
+    content:" *";
+    color: red;
+}
 .accountmanager{
     margin-left: 20%;
 font-size: 15px;
+}
+.accountmanager:after {
+    content:" *";
+    color: red;
 }
 .parentaccount{
     margin-left: 20%;
 font-size: 15px;
 }
+.parentaccount:after {
+    content:" *";
+    color: red;
+}
 .products{
 margin-left: 20%;
 font-size: 15px;
+}
+.products:after {
+    content:" *";
+    color: red;
 }
 .specialins{
 margin-left: 20%;
 font-size: 15px;
 }
+.bannerimage{
+    margin-left: 20%;
+    font-size: 15px; 
+}
+.bannerimage:after {
+    content:" *";
+    color: red;
+}
 .headerlogo{
 margin-left: 20%;
 font-size: 15px;
+}
+.headerlogo:after {
+    content:" *";
+    color: red;
 }
 .customnavbar{
 margin-left: 20%;
@@ -64,8 +108,31 @@ display: inline-block;
 border: 1px solid rgb(180, 182, 182);   
 box-sizing: border-box;   
 }
-.frtext{
-margin-left: 103px;
+.headlab{
+    width: 52%;  
+    font-size: 14px; 
+    margin: 10px ;
+    margin-bottom: 20px;
+    margin-left: 122px;  
+    padding: 3px 3px;   
+    display: inline-block;   
+    border: 1px solid rgb(180, 182, 182);   
+    box-sizing: border-box;   
+    }
+    
+    .lab{
+        width: 52%;  
+        font-size: 14px; 
+        margin: 10px ;
+        margin-bottom: 20px;
+        margin-left: 177px;  
+        padding: 3px 3px;   
+        display: inline-block;   
+        border: 1px solid rgb(180, 182, 182);   
+        box-sizing: border-box;   
+        }
+.addresstext{
+margin-left: 100px;
 margin-bottom: 20px;
 width: 52%;   
 font-size: 14px;  
@@ -169,7 +236,11 @@ border: 1px solid rgb(180, 182, 182);
 box-sizing: border-box;   
 }
 #fu{
-margin-left: 75px;
+margin-left: 85px;
+font-size: 14px;
+}
+#banimg{
+    margin-left: 107px;
 font-size: 14px;
 }
 #hl{
@@ -177,25 +248,25 @@ margin-left: 115px;
 font-size: 14px;
 }
 .background{
-margin-left: 3.8%;
+margin-left: 4.6%;
 font-size: 14px;
 }
 #bg{
-margin-left: 36.8%;
+margin-left: 38%;
 }
 .activehighlight{
-margin-left: 37%;
+margin-left: 37.8%;
 font-size: 14px;
 }
 #ah{
-margin-left: 36.8%;
+margin-left: 38%;
 }
 .inactivetab{
-margin-left: 37%;
+margin-left: 37.8%;
 font-size: 14px;
 }
 #itt{
-margin-left: 36.8%;
+margin-left: 38%;
 }
 input:focus { 
 outline: none !important;

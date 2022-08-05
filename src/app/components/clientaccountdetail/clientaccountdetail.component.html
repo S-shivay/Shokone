@@ -35,7 +35,34 @@
       <div class="form">
           <fieldset class="fd">
         <form action="" method="get">
-             
+          <table class="detailtable">
+            <tbody>
+              <tr class="detailtr">
+                <td class="detailtd">Legal Name:</td>
+                <td></td>
+              </tr>
+              <tr class="detailtr">
+                <td class="detailtd">Wallet Address:</td>
+                <td></td>
+              </tr>
+              <tr class="detailtr">
+                <td class="detailtd">Account Type:</td>
+                <td></td>
+              </tr>
+              <tr class="detailtr">
+                <td class="detailtd">Primary Account Manager:</td>
+                <td></td>
+              </tr>
+              <tr class="detailtr">
+                <td class="detailtd">Header Label:</td>
+                <td></td>
+              </tr>
+              <tr class="detailtr">
+                <td class="detailtd">Label:</td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
         </form>
     </fieldset><br>
     <h4>Products</h4><br>
@@ -48,18 +75,13 @@
             <th></th>
           </tr>
         </thead>
-        <tbody>
+        <tbody class="productbody">
           <tr>
             <td></td>
             <td></td>
             <td></td>
-            <td><a href="ProductDetail.html" class="productdetaillink">Details</a></td>
-          </tr>
-          <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td><a href="ProductDetail.html" class="productdetaillink">Details</a></td>
+            <td><a routerLink="/productdetail-component" routerLinkActive ="active" class="sidelink"> Details
+            </a><router-outlet></router-outlet></td>
           </tr>
         </tbody>
         <tfoot>
@@ -81,10 +103,60 @@
         </thead>
         <tbody>
           <tr>
+            <td>Account Creation - External</td>
+            <td></td>
+            <td></td>
+            <td><a routerLink="/accountexternal-component" routerLinkActive ="active" class="emailtemplatelink"> Details
+            </a><router-outlet></router-outlet>&nbsp;|&nbsp;<a routerLink="/" routerLinkActive ="active" class="emailtemplatelink"> Edit
+            </a><router-outlet></router-outlet></td>
+          </tr>
+          <tr>
+            <td>Account Creation - Internal</td>
+            <td></td>
+            <td></td>
+            <td><a routerLink="/-component" routerLinkActive ="active" class="emailtemplatelink"> Details
+            </a><router-outlet></router-outlet>&nbsp;|&nbsp;<a routerLink="/" routerLinkActive ="active" class="emailtemplatelink"> Edit
+            </a><router-outlet></router-outlet></td>
+          </tr>
+          <tr>
             <td>Forgot Password</td>
             <td></td>
             <td></td>
-            <td><a href="EmailTemplateDetail.html" class="emailtemplatelink">Details</a>&nbsp;|&nbsp;<a href="EditEmailTemplate.html" class="emailtemplatelink">Edit</a></td>
+            <td><a routerLink="/detailsforgot-component" routerLinkActive ="active" class="emailtemplatelink"> Details
+            </a><router-outlet></router-outlet>&nbsp;|&nbsp;<a routerLink="/editforgot-component" routerLinkActive ="active" class="emailtemplatelink"> Edit
+            </a><router-outlet></router-outlet></td>
+          </tr>
+          <tr>
+            <td>Marketing Updates</td>
+            <td></td>
+            <td></td>
+            <td><a routerLink="/" routerLinkActive ="active" class="emailtemplatelink"> Details
+            </a><router-outlet></router-outlet>&nbsp;|&nbsp;<a routerLink="/" routerLinkActive ="active" class="emailtemplatelink"> Edit
+            </a><router-outlet></router-outlet></td>
+          </tr>
+          <tr>
+            <td>Order Confirmation</td>
+            <td></td>
+            <td></td>
+            <td><a routerLink="/" routerLinkActive ="active" class="emailtemplatelink"> Details
+            </a><router-outlet></router-outlet>&nbsp;|&nbsp;<a routerLink="/" routerLinkActive ="active" class="emailtemplatelink"> Edit
+            </a><router-outlet></router-outlet></td>
+          </tr>
+          <tr>
+            <td>Order Status Update</td>
+            <td></td>
+            <td></td>
+            <td><a routerLink="/" routerLinkActive ="active" class="emailtemplatelink"> Details
+            </a><router-outlet></router-outlet>&nbsp;|&nbsp;<a routerLink="/" routerLinkActive ="active" class="emailtemplatelink"> Edit
+            </a><router-outlet></router-outlet></td>
+          </tr>
+          <tr>
+            <td>Password Reset</td>
+            <td></td>
+            <td></td>
+            <td><a routerLink="/" routerLinkActive ="active" class="emailtemplatelink"> Details
+            </a><router-outlet></router-outlet>&nbsp;|&nbsp;<a routerLink="/" routerLinkActive ="active" class="emailtemplatelink"> Edit
+            </a><router-outlet></router-outlet></td>
           </tr>
         </tbody>
         <tfoot>

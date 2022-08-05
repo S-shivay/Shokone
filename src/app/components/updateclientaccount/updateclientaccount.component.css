@@ -1,194 +1,245 @@
+.fl{
+    background-color: rgb(228, 236, 237);
+    height: max-content;
+    width: 90%;
+    margin-left: 5%;
+}
+.upper{
+    margin-left: 5%;
+} 
+.form{
+margin-left: 25%;
+}
 h3{
     font-size: 25px;
     font-weight: 400;
   }
-.fl{
-    background-color: rgb(221, 224, 224);
-    height: max-content;
-    width: 90%;
-    margin-left: 5%;
-    border: 1px solid rgb(180, 182, 182);
-    font-size: 15px;
-}
-.upper{
-    margin-left: 5%;
-}
-.form{
-margin-left: 25%;
-}
-.firstpara{
+.firstp{
 font-size: 15px;
-
 }
-input:focus { 
-outline: none !important;
-border-color: rgb(106, 109, 109);
-box-shadow: 0 0 5px rgb(68, 70, 70);
+.lename{
+font-size: 15px;
+margin-left: 20%;
+}
+.hlabel{
+    font-size: 15px;
+    margin-left: 20%;
+    }
+    .label{
+        font-size: 15px;
+        margin-left: 20%;
+        }
+.walletaddress{
+font-size: 15px;
+margin-left: 20%;
+}
+.accounttype{
+    margin-left: 20%;
+font-size: 15px;
+}
+.accountmanager{
+    margin-left: 20%;
+font-size: 15px;
+}
+.parentaccount{
+    margin-left: 20%;
+font-size: 15px;
+}
+.products{
+margin-left: 20%;
+font-size: 15px;
+}
+.specialins{
+margin-left: 20%;
+font-size: 15px;
+}
+.bannerimage{
+    margin-left: 20%;
+    font-size: 15px; 
+}
+.headerlogo{
+margin-left: 20%;
+font-size: 15px;
+}
+.customnavbar{
+margin-left: 20%;
+font-size: 15px;
+}
+.letext{
+width: 52%;  
+font-size: 14px; 
+margin: 10px ;
+margin-bottom: 20px;
+margin-left: 122px;  
+padding: 3px 3px;   
+display: inline-block;   
+border: 1px solid rgb(180, 182, 182);   
+box-sizing: border-box;   
+}
+.headlab{
+    width: 52%;  
+    font-size: 14px; 
+    margin: 10px ;
+    margin-bottom: 20px;
+    margin-left: 113px;  
+    padding: 3px 3px;   
+    display: inline-block;   
+    border: 1px solid rgb(180, 182, 182);   
+    box-sizing: border-box;   
+    }
+    
+    .lab{
+        width: 52%;  
+        font-size: 14px; 
+        margin: 10px ;
+        margin-bottom: 20px;
+        margin-left: 168px;  
+        padding: 3px 3px;   
+        display: inline-block;   
+        border: 1px solid rgb(180, 182, 182);   
+        box-sizing: border-box;   
+        }
+.addresstext{
+margin-left: 100px;
+margin-bottom: 20px;
+width: 52%;   
+font-size: 14px;  
+padding: 3px 3px;   
+display: inline-block;   
+border: 1px solid rgb(180, 182, 182);   
+box-sizing: border-box;   
+}
+#acty{
+margin-left: 9%;
+}
+#primaryaccountmanager{
+margin-left: 20px;
+}
+#parentac{
+margin-left: 97px;
+}
+select{
+margin-left: 6%;
+width: 52.1%;
+font-size: 14px;  
+padding: 3px 3px;
+border: 1px solid rgb(180, 182, 182);
 }
 select:focus { 
 outline: none !important;
 border-color: rgb(106, 109, 109);
 box-shadow: 0 0 5px rgb(68, 70, 70);
 }
-.lename{
-margin-left: 20px;
-}
-.lenametext{
-margin-left: 56px;
-width: 52%;     
-margin-bottom: 20px;
-padding: 3px 3px;   
-display: inline-block;   
-border: 1px solid rgb(180, 182, 182);   
-box-sizing: border-box;
-font-size: 14px;
-}
-.frnametext{
-margin-left: 57px; 
-width: 52%;     
-margin-bottom: 20px;
-padding: 3px 3px;   
-display: inline-block;   
-border: 1px solid rgb(180, 182, 182);   
-box-sizing: border-box;
-font-size: 14px;
-}
-.accounttype{
-margin-left: 7px;
-
-}
-#selectaccount{
-margin-left: 6.2%;
-width: 52%;     
-padding: 3px 3px;   
-display: inline-block;   
-border: 1px solid rgb(180, 182, 182);   
-box-sizing: border-box;
-font-size: 14px;
-}
-.primaryaccount{
-margin-left: -9%;
-}
-#selectprimary{
-margin-left: 6.2%;
-width: 52%;     
-padding: 3px 3px;   
-display: inline-block;   
-border: 1px solid rgb(180, 182, 182);   
-box-sizing: border-box;
-font-size: 14px;
-}
-.parentaccount{
-margin-left: -5px;
-}
-#selectparent{
-margin-left: 6.2%;
-width: 52%;     
-padding: 3px 3px;   
-display: inline-block;   
-border: 1px solid rgb(180, 182, 182);   
-box-sizing: border-box;
-font-size: 14px;
-}
-.products{
-margin-left:4.5%;
-}
-.checkatlas{
-font-size: 14px;
-}
-.checkbx{
-margin-left:6.2%;
-}
 .checkbox{
 margin-left: 170px;
+}
+.checkbx{
+    margin-left: 142px;
+}
+.atlascheck{
+font-size: 14px;
+}
+.atlastext{
+font-size: 15px;
+width: 52%;   
+margin: 10px ;
+margin-left: 15px;  
+font-size: 14px;  
+padding: 4px 4px;
+display: inline-block;   
+border: 1px solid rgb(180, 182, 182);   
+box-sizing: border-box;   
 }
 input[type=color]{
 width: 200px;
 margin-left: 18.6%;
 }
-.disableatlas{
+#awe2{
 margin-left: 14%;
 width: 16%;
-margin-bottom: 20px;
-padding: 3px 3px;   
-display: inline-block;   
-border: 1px solid rgb(180, 182, 182);   
-box-sizing: border-box;
-font-size: 14px;
-}
-.hidediv{
-display: none;
 }
 #ditins{
 margin-left: 5.6%;
 }
 .userlb{
-margin-left: 1.5px;
+margin-left: 20%;
+font-size: 15px;
 }
 #d1tuser{
-margin-left: 6%;
-width: 52%;     
-margin-bottom: 20px;
-padding: 3px 3px;   
+margin-left: 100px;
+width: 52%; 
+margin-bottom: 10px;    
+font-size: 14px;  
+padding: 4px 4px;  
 display: inline-block;   
 border: 1px solid rgb(180, 182, 182);   
-box-sizing: border-box;
-font-size: 14px;
+box-sizing: border-box;   
 }
 .passlb{
-margin-left: 6px;
+margin-left: 20%;
+font-size: 15px;
 }
 #d1tpass{
-margin-left: 6%;
-width: 52%;     
-margin-bottom: 20px;
-padding: 3px 3px;   
+margin-left: 104px;
+width: 52%;   
+margin-bottom: 10px ; 
+font-size: 14px;  
+padding: 4px 4px;  
 display: inline-block;   
-border: 1px solid rgb(180, 182, 182);   
-box-sizing: border-box;
-font-size: 14px;
+border: 1px solid rgb(180, 182, 182); 
+box-sizing: border-box;   
 }
 .cpasslb{
-margin-left: -6%;
+margin-left: 20%;
+font-size: 15px;
 }
 #d1tcpass{
-margin-left: 5.9%;
-width: 52%;     
-margin-bottom: 20px;
-padding: 3px 3px;   
+margin-left: 42px;
+width: 52%;   
+margin-bottom: 10px ; 
+font-size: 14px;  
+padding: 4px 4px;
 display: inline-block;   
-border: 1px solid rgb(180, 182, 182);   
-box-sizing: border-box;
-font-size: 14px;
-}
-.special{
-margin-left: -3%;
+border: 1px solid rgb(180, 182, 182);  
+box-sizing: border-box;   
 }
 #fu{
-margin-left: 6.3%;
+margin-left: 75px;
 font-size: 14px;
 }
-.headerlogo{
-margin-left:1.2%;
+#banimg{
+    margin-left: 107px;
+font-size: 14px;
 }
 #hl{
-margin-left: 6.6%;
+margin-left: 115px;
 font-size: 14px;
-}
-.customnavbar{
-margin-left: -6%;
 }
 .background{
-margin-left: 6.1%;
+margin-left: 3.8%;
 font-size: 14px;
+}
+#bg{
+margin-left: 37%;
 }
 .activehighlight{
-margin-left: 17.9%;
+margin-left: 37%;
 font-size: 14px;
 }
+#ah{
+margin-left: 37%;
+}
 .inactivetab{
-margin-left: 17.9%;
+margin-left: 37%;
 font-size: 14px;
+}
+#itt{
+margin-left: 37%;
+}
+input:focus { 
+outline: none !important;
+border-color: rgb(106, 109, 109);
+box-shadow: 0 0 5px rgb(68, 70, 70);
 }
 .btn-primary{
     background-color: orange;
@@ -196,7 +247,7 @@ font-size: 14px;
     padding: 5px 12px 5px 12px;
     font-size: 15px;
     border: 1px solid orange;
-    margin-left: 170px;
+    margin-left: 36.8%;
 }
 .btn-primary:hover {
     background-color:rgb(230, 155, 16);

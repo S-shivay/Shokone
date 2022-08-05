@@ -4,14 +4,21 @@
     <p class="firstp">Use the form below to add an external user to an account.</p>
 </div><fieldset class="fl">
     <form class="form">
-        <label for="exus" class="exis"><b>Existing Users</b></label>
+        <label for="exus" class="exis"><b>Associated Client Account</b></label>
             <select name="exus" id="exus" required>
                 <option value=""></option>
             </select><br>
         <label for="fname" class="fname"><b>First Name</b></label><input type="text" name="fname" class="fnametext"  required><br>
-        <label for="lname" class="lname"><b>Last Name</b></label><input type="text" name="lname" class="lnametext"><br>
-        <label for="email" class="email"><b>Email Address</b></label><input type="email" name="email" id="email"><br>
-        <label for="ssoprovider" class="sso"><b>Use SSO Provider</b></label>
+        <label for="lname" class="lname"><b>Last Name</b></label><input type="text" name="lname" class="lnametext" required><br>
+        <label for="address1" class="address1"><b>Address 1</b></label><input type="text" name="address1" class="address1text" required><br>
+        <label for="address2" class="address2"><b>Address 2</b></label><input type="text" name="address2" class="address2text"><br>
+        <label for="city" class="city"><b>City</b></label><input type="text" name="city" class="citytext" required><br>
+        <label for="state" class="state"><b>State</b></label><input type="text" name="state" class="statetext" required><br>
+        <label for="country" class="country"><b>Country</b></label><input type="text" name="country" class="countrytext" required><br>
+        <label for="zip" class="zip"><b>Zip</b></label><input type="text" name="zip" class="ziptext" required><br>
+        <label for="phone" class="phone"><b>Phone</b></label><input type="text" name="phone" class="phonetext" required><br>
+        <label for="email" class="email"><b>Email Address</b></label><input type="email" name="email" id="email" required><br>
+        <!-- <label for="ssoprovider" class="sso"><b>Use SSO Provider</b></label>
             <input type="checkbox" class="checkbx" name="ssoprovider" id="pe"  onclick="checkbox(this)"><label for="ssoprovider"></label>
             <br>
             <div id="pediv" class="hidediv">
@@ -21,7 +28,7 @@
                     <option value="okta">Okta</option>
                 </select>
                 
-            </div>
+            </div> -->
             <label for="prefelan" class="prelan"><b>Preferred Language</b></label>
                 <select name="prefelan" id="prefelan" required>
                     <option value="English">English (US)</option>
@@ -1022,8 +1029,8 @@
                     <option value="yo-NG">Yoruba (Nigeria)</option>
                     <option value="dje">Zarma</option>
                     <option value="dje-NE">Zarma (Niger)</option>
-                </select><br>
-                <div class="div3">
+                </select><br><br>
+                <!-- <div class="div3">
                 <label for="email" class="selectemail"><b>Emails</b></label></div>
                           <div class="div4">
                               <label for="optout" class="optout"></label> Opted out 
@@ -1047,12 +1054,13 @@
                                 <option value="6" id="multiple6">Option 6</option>
                                   <option value="7" id="multiple7">Option 7</option>
                                   <option value="8" id="multiple8">Option 8</option> 
-                              </select></div> <br> <br> <br><br><br><br>
-                <label for="role" class="persona" required><b>Persona</b></label>
+                              </select></div> <br> <br> <br><br><br><br> -->
+                <!-- <label for="role" class="persona" required><b>Persona</b></label>
                 <select name="persona" id="persona">
                     <option value=""></option>
-                </select> <br><br>
+                </select> <br><br> -->
                 <div class="butt"><button type="submit" class="btn btn-lg btn-primary">Add User</button>
-                    <button type="reset" class="btn btn-secondary btn-lg" onclick="window.location.href='ManageUser.html'" >Cancel</button></div> <br>
+                    <button type="reset" class="btn btn-secondary btn-lg" ><a routerLink="/manageusers-component" routerLinkActive ="active" class="sidelink"> Cancel
+                    </a><router-outlet></router-outlet></button></div> <br>
     </form>
 </fieldset>

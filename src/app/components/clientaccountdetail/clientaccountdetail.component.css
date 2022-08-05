@@ -107,7 +107,7 @@ a{
     margin-left: 1px;
     font-size: 14px;
 }
-tbody{
+.productbody{
     background-color: white;
     border-bottom: 1px solid rgb(134, 141, 141);
 }
@@ -124,4 +124,21 @@ tbody{
 .emailtemplatelink:hover{
     color: rgb(209, 138, 7);
     text-decoration: underline;
+}
+.detailtable{
+    border:  1px solid rgb(221, 224, 224);
+    margin-left: 8%;
+    margin-top: 2%;
+}
+.detailtr .detailtd{
+    margin-top: 5%;
+    width: 60%;
+    margin-left: -25%;
+    border:  1px solid rgb(221, 224, 224);
+    background-color: transparent;
+    color: black;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 8px 15px 8px 15px;
+    
 }

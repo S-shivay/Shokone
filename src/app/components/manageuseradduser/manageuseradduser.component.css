@@ -39,8 +39,8 @@ width: 200px;
 margin-left: 18.6%;
 }
 .fnametext{
-margin-left: 5.7%;
-width: 52.2%;
+margin-left: 17.3%;
+width: 52.4%;
 margin-bottom: 10px ;  
 padding: 3px 3px;   
 display: inline-block;   
@@ -63,37 +63,177 @@ border: 1px solid rgb(180, 182, 182);
 box-sizing: border-box; 
 font-size: 14px;
 }
+
 .exis{
 margin-top: 2%;
 font-size: 15px;
-margin-left: 0.1%;
+margin-left: 2.5%;
+}
+.exis:after {
+    content:" *";
+    color: red;
 }
 .fname{
 margin-left: 2.5%;
 font-size: 15px;
 }
+.fname:after {
+    content:" *";
+    color: red;
+}
 .lname{
-margin-left: 2.8%;
+margin-left: 2.5%;
 font-size: 15px;
 }
+.lname:after {
+    content:" *";
+    color: red;
+}
+.address1{
+margin-left: 2.5%;
+font-size: 15px;
+}
+.address1:after {
+    content:" *";
+    color: red;
+}
+.address2{
+margin-left: 2.5%;
+font-size: 15px;
+}
+.city{
+margin-left: 2.5%;
+font-size: 15px;
+}
+.city:after {
+    content:" *";
+    color: red;
+}
+.state{
+margin-left: 2.5%;
+font-size: 15px;
+}
+.state:after {
+    content:" *";
+    color: red;
+}
+.country{
+margin-left: 2.5%;
+font-size: 15px;
+}
+.country:after {
+    content:" *";
+    color: red;
+}
+.zip{
+margin-left: 2.5%;
+font-size: 15px;
+}
+.zip:after {
+    content:" *";
+    color: red;
+}
+.phone{
+margin-left: 2.5%;
+font-size: 15px;
+}
+.phone:after {
+    content:" *";
+    color: red;
+}
 .lnametext{
-margin-left: 52px; 
+margin-left: 159px; 
 margin-bottom: 10px;
-width: 52.3%;
+width: 52.5%;
 padding: 3px 3px;   
 display: inline-block;   
 border: 1px solid rgb(180, 182, 182);  
 box-sizing: border-box;
 font-size: 14px;
 }
+.address1text{
+margin-left: 164px; 
+margin-bottom: 10px;
+width: 52.4%;
+padding: 3px 3px;   
+display: inline-block;   
+border: 1px solid rgb(180, 182, 182);  
+box-sizing: border-box;
+font-size: 14px;
+}
+.address2text{
+    margin-left: 175px; 
+    margin-bottom: 10px;
+    width: 52.3%;
+    padding: 3px 3px;   
+    display: inline-block;   
+    border: 1px solid rgb(180, 182, 182);  
+    box-sizing: border-box;
+    font-size: 14px;
+    }
+    .citytext{
+        margin-left: 206px; 
+        margin-bottom: 10px;
+        width: 52.3%;
+        padding: 3px 3px;   
+        display: inline-block;   
+        border: 1px solid rgb(180, 182, 182);  
+        box-sizing: border-box;
+        font-size: 14px;
+        }
+        .statetext{
+            margin-left: 198px; 
+            margin-bottom: 10px;
+            width: 52.3%;
+            padding: 3px 3px;   
+            display: inline-block;   
+            border: 1px solid rgb(180, 182, 182);  
+            box-sizing: border-box;
+            font-size: 14px;
+            }
+            .countrytext{
+                margin-left: 176px; 
+                margin-bottom: 10px;
+                width: 52.4%;
+                padding: 3px 3px;   
+                display: inline-block;   
+                border: 1px solid rgb(180, 182, 182);  
+                box-sizing: border-box;
+                font-size: 14px;
+                }
+                .ziptext{
+                    margin-left: 211px; 
+                    margin-bottom: 10px;
+                    width: 52.4%;
+                    padding: 3px 3px;   
+                    display: inline-block;   
+                    border: 1px solid rgb(180, 182, 182);  
+                    box-sizing: border-box;
+                    font-size: 14px;
+                    }
+                    .phonetext{
+                        margin-left: 189px; 
+                        margin-bottom: 10px;
+                        width: 52.4%;
+                        padding: 3px 3px;   
+                        display: inline-block;   
+                        border: 1px solid rgb(180, 182, 182);  
+                        box-sizing: border-box;
+                        font-size: 14px;
+                        }
+
 .email{
-margin-left: 0.5px;
+margin-left: 22px;
 font-size: 15px;
 }
+.email:after {
+    content:" *";
+    color: red;
+}
 #email{
-margin-left: 5.8%;
+margin-left: 14.9%;
 margin-bottom: 10px;
-width: 52.3%;
+width: 52.4%;
 padding: 3px 3px;   
 font-size: 14px;
 display: inline-block;   
@@ -126,14 +266,14 @@ border: 1px solid rgb(180, 182, 182);
 box-sizing: border-box;
 }
 .prelan{
-margin-left: -4.2%;
+margin-left: 2.4%;
 font-size: 15px;
 }
 #prefelan{
 margin-top: 0.5%;
-margin-left: 5.7%;
+margin-left: 11.6%;
 margin-bottom: 10px ; 
-width: 474px;
+width: 476px;
 padding: 3px 3px;   
 font-size: 14px;
 display: inline-block;   
@@ -141,13 +281,13 @@ border: 1px solid rgb(180, 182, 182);
 box-sizing: border-box;
 }
 .pretime{
-margin-left: -4.8%;
+margin-left: 2.3%;
 font-size: 15px;
 }
 #prefetime{
-margin-left: 5.7%;
+margin-left: 11.1%;
 margin-bottom: 10px ; 
-width: 474px;
+width: 476px;
 padding: 3px 3px;   
 font-size: 14px;
 display: inline-block;   
@@ -155,13 +295,13 @@ border: 1px solid rgb(180, 182, 182);
 box-sizing: border-box;
 }
 .precul{
-margin-left: -2.3%;
+margin-left: 2.3%;
 font-size: 15px;
 }
 #prefecul{
-margin-left: 5.7%;
+margin-left: 13.6%;
 margin-bottom: 10px ; 
-width: 474px;
+width: 476px;
 padding: 3px 3px;   
 font-size: 14px;
 display: inline-block;   

@@ -53,9 +53,10 @@
         <a routerLink="/externaluser-component" routerLinkActive ="active" class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile">External User
         </a></li>
         <li class="nav-item" role="presentation">
-          <a  routerLink="/globalsetting-component" routerLinkActive ="active" class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" >Global Setting
+          <a  routerLink="/globalsetting-component" routerLinkActive ="active" class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" >Global Settings
             </a></li><br>
-      <li class="cp"><a routerLink="/changepassword-component" routerLinkActive ="active" class="sideli">Change Password</a>&nbsp;&nbsp;| &nbsp;&nbsp;<a routerLink="/index-component" routerLinkActive ="active" class="sideli">Log Off</a></li>
+      <li class="cp"><a routerLink="/changepassword-component" routerLinkActive="active" class="sideli">Change Password
+      </a><router-outlet></router-outlet>&nbsp;&nbsp;| &nbsp;&nbsp;<a routerLink="/index-component" routerLinkActive ="active" class="sideli">Log Off</a></li>
     </ul>
     <div class="em">&nbsp;</div>
     <router-outlet></router-outlet>

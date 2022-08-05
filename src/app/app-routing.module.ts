@@ -17,7 +17,6 @@ import { DeactivateclientaccountComponent } from './components/deactivateclienta
 import { ManageemailnotificationComponent } from './components/manageemailnotification/manageemailnotification.component';
 import { ManagefieldsComponent } from './components/managefields/managefields.component';
 import { ManageusersComponent } from './components/manageusers/manageusers.component';
-import { ViewclientaccountComponent } from './components/viewclientaccount/viewclientaccount.component';
 import { ManageuserpersonasComponent } from './components/manageuserpersonas/manageuserpersonas.component';
 import { ManageuseradduserComponent } from './components/manageuseradduser/manageuseradduser.component';
 import { DownloadusersComponent } from './components/downloadusers/downloadusers.component';
@@ -28,6 +27,11 @@ import { DeactivateinternaluserComponent } from './components/deactivateinternal
 import { ResetpasswordinternaluserComponent } from './components/resetpasswordinternaluser/resetpasswordinternaluser.component';
 import { UpdateinternaluserComponent } from './components/updateinternaluser/updateinternaluser.component';
 import { GlobalsettingComponent } from './components/globalsetting/globalsetting.component';
+import { DetailsforgotComponent } from './components/detailsforgot/detailsforgot.component';
+import { EditforgotComponent } from './components/editforgot/editforgot.component';
+import { AccountexternalComponent } from './components/accountexternal/accountexternal.component';
+import { ProductdetailComponent } from './components/productdetail/productdetail.component';
+import { ChangepasswordComponent } from './components/changepassword/changepassword.component';
 
 
 const routes: Routes = [
@@ -48,7 +52,6 @@ const routes: Routes = [
   {path: 'manageemailnotification-component', component: ManageemailnotificationComponent},
   {path: 'managefields-component', component: ManagefieldsComponent},
   {path: 'manageusers-component', component: ManageusersComponent},
-  {path: 'viewclientaccount-component', component: ViewclientaccountComponent},
   {path: 'manageuserpersonas-component', component: ManageuserpersonasComponent},
   {path: 'manageuseradduser-component', component: ManageuseradduserComponent},
   {path: 'downloadusers-component', component: DownloadusersComponent},
@@ -59,6 +62,11 @@ const routes: Routes = [
   {path: 'resetpasswordinternaluser-component', component: ResetpasswordinternaluserComponent},
   {path: 'updateinternaluser-component', component: UpdateinternaluserComponent},
   {path: 'globalsetting-component', component: GlobalsettingComponent},
+  {path: 'detailsforgot.component', component: DetailsforgotComponent},
+  {path: 'editforgot.component', component: EditforgotComponent},
+  {path: 'accountexternal.component', component: AccountexternalComponent},
+  {path: 'productdetail.component', component: ProductdetailComponent},
+  {path: 'changepassword.component', component: ChangepasswordComponent},
 ];
 
 @NgModule({

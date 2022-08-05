@@ -1,20 +1,20 @@
 <div class="splitleft">
     <div class="div1">
-     <table>
-         <tr>
-             <td>
+     <table class="sidetable">
+         <tr class="sidetr">
+             <td class="sidetd">
                 <a routerLink="/updateexternaluser-component" routerLinkActive ="active" class="bt"> Update Account
                     </a><router-outlet></router-outlet>
             </td>
         </tr>
-        <tr>
-            <td>
+        <tr class="sidetr">
+            <td class="sidetd">
                 <a routerLink ="/deactivateexternaluser-component" routerLinkActive ="active" class="bt"> Deactivate Account
                     </a><router-outlet></router-outlet>
            </td>
        </tr>
-       <tr>
-           <td>
+       <tr class="sidetr">
+           <td class="sidetd">
             <a routerLink ="/resetpasswordexternaluser-component" routerLinkActive ="active" class="bt"> Reset Password
                 </a><router-outlet></router-outlet>
     </td>
@@ -29,7 +29,66 @@
       <div class="form">
           <fieldset class="fd">
         <form action="" method="get">
-            
+            <table class="detailtable">
+                <tbody>
+                  <tr class="detailtr">
+                    <td class="detailtd">Associated Client Account:</td>
+                    <td></td>
+                  </tr>
+                  <tr class="detailtr">
+                    <td class="detailtd">First Name:</td>
+                    <td></td>
+                  </tr>
+                  <tr class="detailtr">
+                    <td class="detailtd">Last Name:</td>
+                    <td></td>
+                  </tr>
+                  <tr class="detailtr">
+                    <td class="detailtd">Address 1:</td>
+                    <td></td>
+                  </tr>
+                  <tr class="detailtr">
+                    <td class="detailtd">Address 2:</td>
+                    <td></td>
+                  </tr>
+                  <tr class="detailtr">
+                    <td class="detailtd">City:</td>
+                    <td></td>
+                  </tr>
+                  <tr class="detailtr">
+                    <td class="detailtd">State:</td>
+                    <td></td>
+                  </tr>
+                  <tr class="detailtr">
+                    <td class="detailtd">Country:</td>
+                    <td></td>
+                  </tr>
+                  <tr class="detailtr">
+                    <td class="detailtd">Zip:</td>
+                    <td></td>
+                  </tr>
+                  <tr class="detailtr">
+                    <td class="detailtd">Phone:</td>
+                    <td></td>
+                  </tr>
+                  <tr class="detailtr">
+                    <td class="detailtd">Email Address:</td>
+                    <td></td>
+                  </tr>
+                  <tr class="detailtr">
+                    <td class="detailtd">Preferred Language:</td>
+                    <td></td>
+                  </tr>
+                  <tr class="detailtr">
+                    <td class="detailtd">Preferred Time Zone:</td>
+                    <td></td>
+                  </tr>
+                  <tr class="detailtr">
+                    <td class="detailtd">Preferred Culture:</td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
         </form>
     </fieldset>
     </div>
