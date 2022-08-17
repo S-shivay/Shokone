@@ -143,12 +143,6 @@ outline: none !important;
 border-color: rgb(106, 109, 109);
 box-shadow: 0 0 5px rgb(68, 70, 70);
 }
-.downloadresult{
-  font-size: 14px;
-  color: orange;
-  float: right;
-  margin-right: 65px;
-}
 table{
   margin-top: -4%;
   width: 95%;

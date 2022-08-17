@@ -2,7 +2,7 @@ import { HttpClient, HttpErrorResponse } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable, throwError } from 'rxjs';
 import { catchError, retry } from 'rxjs/operators';
-import { baseUrl } from 'src/environments/environment';
+import { environment } from 'src/environments/environment';
 import { Models } from '../model/models.component';
 import { ModelPojo } from '../model/user.model';
 
@@ -17,19 +17,19 @@ export class UserserviceService {
   getModelBasedOnId(mobileNumber: number) {
     throw new Error('Method not implemented.');
   }
-  
-  modelUrl = baseUrl+"/models/";
+  baseUrl = environment.baseUrl;
+  shokoneUrl = this.baseUrl+"/models/";
   constructor(private http: HttpClient) { }
   getAllModels() {
-    console.log("calling backend"+this.modelUrl)
-    return this.http.get<Models>(this.modelUrl).pipe(catchError(this.handleError));
+    console.log("calling backend"+this.shokoneUrl)
+    return this.http.get<Models>(this.shokoneUrl).pipe(catchError(this.handleError));
   }
   // getModelBasedOnId(mobileNumber: number){
   //   return this.http.get<ModelPojo>(this.modelUrl+mobileNumber).pipe(catchError(this.handleError));
   // }
 
   saveUser(user:ModelPojo) {
-    return this.http.post<ModelPojo>(this.modelUrl,user);
+    return this.http.post<ModelPojo>(this.shokoneUrl,user);
   }
   // updateUser(user:ModelPojo,mobileNumber:number){
   //   return this.http.put<ModelPojo>(this.modelUrl+mobileNumber,user).pipe(catchError(this.handleError));

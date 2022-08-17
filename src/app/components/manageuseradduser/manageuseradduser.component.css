@@ -34,33 +34,21 @@ box-shadow: 0 0 5px rgb(68, 70, 70);
 .firstp{
 font-size: 15px;
 }
-input[type=color]{
-width: 200px;
-margin-left: 18.6%;
-}
 .fnametext{
 margin-left: 17.3%;
 width: 52.4%;
 margin-bottom: 10px ;  
-padding: 3px 3px;   
-display: inline-block;   
+padding: 3px 3px;    
 border: 1px solid rgb(180, 182, 182);   
-box-sizing: border-box; 
 font-size: 14px;
-}
-#pe2{
-margin-left: 14%;
-width: 14%;
 }
 #exus{
 margin-top: 2%;
 margin-left: 51px;
 margin-bottom: 10px ; 
 width: 52.3%;
-display: inline-block;
 padding: 3px 3px;
 border: 1px solid rgb(180, 182, 182);   
-box-sizing: border-box; 
 font-size: 14px;
 }
 
@@ -145,20 +133,16 @@ font-size: 15px;
 margin-left: 159px; 
 margin-bottom: 10px;
 width: 52.5%;
-padding: 3px 3px;   
-display: inline-block;   
+padding: 3px 3px;    
 border: 1px solid rgb(180, 182, 182);  
-box-sizing: border-box;
 font-size: 14px;
 }
 .address1text{
 margin-left: 164px; 
 margin-bottom: 10px;
 width: 52.4%;
-padding: 3px 3px;   
-display: inline-block;   
+padding: 3px 3px;     
 border: 1px solid rgb(180, 182, 182);  
-box-sizing: border-box;
 font-size: 14px;
 }
 .address2text{
@@ -166,9 +150,7 @@ font-size: 14px;
     margin-bottom: 10px;
     width: 52.3%;
     padding: 3px 3px;   
-    display: inline-block;   
     border: 1px solid rgb(180, 182, 182);  
-    box-sizing: border-box;
     font-size: 14px;
     }
     .citytext{
@@ -176,9 +158,7 @@ font-size: 14px;
         margin-bottom: 10px;
         width: 52.3%;
         padding: 3px 3px;   
-        display: inline-block;   
         border: 1px solid rgb(180, 182, 182);  
-        box-sizing: border-box;
         font-size: 14px;
         }
         .statetext{
@@ -186,9 +166,7 @@ font-size: 14px;
             margin-bottom: 10px;
             width: 52.3%;
             padding: 3px 3px;   
-            display: inline-block;   
             border: 1px solid rgb(180, 182, 182);  
-            box-sizing: border-box;
             font-size: 14px;
             }
             .countrytext{
@@ -196,19 +174,15 @@ font-size: 14px;
                 margin-bottom: 10px;
                 width: 52.4%;
                 padding: 3px 3px;   
-                display: inline-block;   
                 border: 1px solid rgb(180, 182, 182);  
-                box-sizing: border-box;
                 font-size: 14px;
                 }
                 .ziptext{
                     margin-left: 211px; 
                     margin-bottom: 10px;
                     width: 52.4%;
-                    padding: 3px 3px;   
-                    display: inline-block;   
+                    padding: 3px 3px;    
                     border: 1px solid rgb(180, 182, 182);  
-                    box-sizing: border-box;
                     font-size: 14px;
                     }
                     .phonetext{
@@ -216,9 +190,7 @@ font-size: 14px;
                         margin-bottom: 10px;
                         width: 52.4%;
                         padding: 3px 3px;   
-                        display: inline-block;   
                         border: 1px solid rgb(180, 182, 182);  
-                        box-sizing: border-box;
                         font-size: 14px;
                         }
 
@@ -235,35 +207,8 @@ margin-left: 14.9%;
 margin-bottom: 10px;
 width: 52.4%;
 padding: 3px 3px;   
-font-size: 14px;
-display: inline-block;   
+font-size: 14px;  
 border: 1px solid rgb(180, 182, 182);   
-box-sizing: border-box;
-}
-.sso{
-margin-left: -2.4%;
-font-size: 15px;
-}
-.hidediv{
-display: none;
-}
-.checkbx{
-margin-left: 5.8%;
-}
-.idpro{
-margin-left: -2.3%;
-font-size: 15px;
-}
-#idpro{
-margin-top: 2%;
-margin-left: 6%;
-margin-bottom: 10px ; 
-width: 52.1%;
-padding: 3px 3px;   
-font-size: 14px;
-display: inline-block;   
-border: 1px solid rgb(180, 182, 182); 
-box-sizing: border-box;
 }
 .prelan{
 margin-left: 2.4%;
@@ -276,9 +221,7 @@ margin-bottom: 10px ;
 width: 476px;
 padding: 3px 3px;   
 font-size: 14px;
-display: inline-block;   
 border: 1px solid rgb(180, 182, 182);   
-box-sizing: border-box;
 }
 .pretime{
 margin-left: 2.3%;
@@ -290,9 +233,7 @@ margin-bottom: 10px ;
 width: 476px;
 padding: 3px 3px;   
 font-size: 14px;
-display: inline-block;   
 border: 1px solid rgb(180, 182, 182);  
-box-sizing: border-box;
 }
 .precul{
 margin-left: 2.3%;
@@ -304,109 +245,10 @@ margin-bottom: 10px ;
 width: 476px;
 padding: 3px 3px;   
 font-size: 14px;
-display: inline-block;   
 border: 1px solid rgb(180, 182, 182);  
-box-sizing: border-box;
-}
-.div3{
-position: relative;
-float: left;
-margin-left: 6.9%;
-}
-.selectemail{
-margin-left: -7px;
-font-size: 15px;
-}
-.div4{
-position: relative;
-float: left;
-margin-left: 5.8%;
-font-size: 14px;
-}
-.optin{
-margin-left: 253px;
-}
-.selectListBox{
-position: relative;
-float: left;
-width: 25%;
-margin-left: 17.2%;
-border: 1px solid rgb(180, 182, 182);
-font-size: 14px;
-padding-bottom: 25px;
-}
-.div6{
-position: relative;
-float: left;
-margin-left: 30px;
-margin-top: 20px;
-}
-.selectListBox2{
-position: relative;
-float: left;
-width: 25%;
-margin-left: 3%;
-border: 1px solid rgb(180, 182, 182);
-font-size: 14px;
-padding-bottom: 25px;
-}
-.dis0{
-clear: both;
-position: static;
-margin-top: 2%;
-margin-left: -14%;
-}
-#dis0{
-margin-left: 5.5%;
-}
-.p{
-margin-left: 20.8%;
-}
-.persona{
-margin-left: 5%;
-font-size: 15px;
-}
-#persona{
-margin-top: 1%;
-margin-left: 5.6%;
-margin-bottom: 10px ; 
-width: 474px;
-padding: 3px 3px;   
-font-size: 14px;
-display: inline-block;   
-border: 1px solid rgb(180, 182, 182);   
-box-sizing: border-box;
-}
-.ficheck{
-margin-left: 5.4%;
-}
-.check{
-margin-left: 18.3%;
-}
-.button3{
-margin-bottom: 60%;
-padding: 2px 8px 2px 8px;
-margin-top: -20px;
-border: 1px solid rgb(180, 182, 182); 
-}
-.button3:hover{
-background-color: rgb(114, 116, 116) ;
-border: 1px solid rgb(84, 85, 85);
-}
-.button4{
-padding: 2px 8px 2px 8px;
-border: 1px solid rgb(180, 182, 182); 
-}
-.button4:hover{
-background-color: rgb(114, 116, 116) ;
-border: 1px solid rgb(84, 85, 85);
 }
 .butt{
 margin-right: 25%;
-}
-.sub{
-background-color: orange;
-color: white;
 }
 .btn-primary{   
     margin-left: 100px;

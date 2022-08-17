@@ -1,6 +1,6 @@
 {
   "/api/*": {
-    "target": "http://localhost:9191",
+    "target": "http://internaluser-env.eba-4u6cvzck.us-west-2.elasticbeanstalk.com",
     "secure": false,
     "changeOrigin": true,
     "logLevel": "debug",
