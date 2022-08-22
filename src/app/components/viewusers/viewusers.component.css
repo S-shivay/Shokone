@@ -81,30 +81,13 @@ h3{
   background-color: rgb(164, 168, 168);
   border: 1px solid rgb(164, 168, 168);
 }
-.filres{
-  margin-left: -50px;
-}
-.cp{
-  margin-top: .7%;
-  margin-left: 83%;
-  color: black;
-}
-.sideli{
-  color: black;
-}
-.sideli:hover {
-  color: rgb(24, 21, 21);
-  text-decoration: underline;
-}
 a{
   text-decoration: none;
 }
 #sts{
   padding: 3px;
   width: 25.3%;
-  display: inline-block;
   border: 1px solid rgb(180, 182, 182);  
-  box-sizing: border-box;
 }
 select:focus { 
 outline: none !important;
@@ -134,28 +117,22 @@ box-shadow: 0 0 5px rgb(68, 70, 70);
 .ftext{
   width: 25%;
   margin-right: 18.5%;
-  display: inline-block;   
   padding: 2.2px 2.2px;
   border: 1px solid rgb(180, 182, 182);  
-  box-sizing: border-box;
   background-color: white;
 }
 .ltext{
-  width: 25%;
-  display: inline-block;   
+  width: 25%; 
   padding: 2.2px 2.2px;
   border: 1px solid rgb(180, 182, 182);  
-  box-sizing: border-box;
   background-color: white;
 }
 .etext{
   width: 25%;
   margin-right: 10%;
-  margin-top: 2%;
-  display: inline-block;   
+  margin-top: 2%;   
   padding: 2px 2px;
   border: 1px solid rgb(180, 182, 182);  
-  box-sizing: border-box;
   background-color: white;
 }
 .downloadresult{

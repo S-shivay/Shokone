@@ -7,9 +7,6 @@
 .upper{
     margin-left: 5%;
 } 
-.form{
-margin-left: 25%;
-}
 h3{
     font-size: 25px;
     font-weight: 400;
@@ -29,10 +26,10 @@ margin-left: 20%;
     font-size: 15px;
     margin-left: 20%;
     }
-    .label{
-        font-size: 15px;
-        margin-left: 20%;
-        }
+.label{
+    font-size: 15px;
+    margin-left: 20%;
+    }
 .walletaddress{
 font-size: 15px;
 margin-left: 20%;
@@ -103,10 +100,8 @@ font-size: 14px;
 margin: 10px ;
 margin-bottom: 20px;
 margin-left: 122px;  
-padding: 3px 3px;   
-display: inline-block;   
+padding: 3px 3px;      
 border: 1px solid rgb(180, 182, 182);   
-box-sizing: border-box;   
 }
 .headlab{
     width: 52%;  
@@ -114,10 +109,8 @@ box-sizing: border-box;
     margin: 10px ;
     margin-bottom: 20px;
     margin-left: 122px;  
-    padding: 3px 3px;   
-    display: inline-block;   
-    border: 1px solid rgb(180, 182, 182);   
-    box-sizing: border-box;   
+    padding: 3px 3px;    
+    border: 1px solid rgb(180, 182, 182);    
     }
     
     .lab{
@@ -127,9 +120,7 @@ box-sizing: border-box;
         margin-bottom: 20px;
         margin-left: 177px;  
         padding: 3px 3px;   
-        display: inline-block;   
         border: 1px solid rgb(180, 182, 182);   
-        box-sizing: border-box;   
         }
 .addresstext{
 margin-left: 100px;
@@ -137,9 +128,7 @@ margin-bottom: 20px;
 width: 52%;   
 font-size: 14px;  
 padding: 3px 3px;   
-display: inline-block;   
-border: 1px solid rgb(180, 182, 182);   
-box-sizing: border-box;   
+border: 1px solid rgb(180, 182, 182);    
 }
 #acty{
 margin-left: 9%;

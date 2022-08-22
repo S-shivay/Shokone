@@ -32,10 +32,8 @@ select:focus {
     width: 42.5%;
     width: 52%;   
     margin-bottom: 10px ;  
-    padding: 3px 3px;   
-    display: inline-block;   
+    padding: 3px 3px;     
     border: 1px solid rgb(180, 182, 182);  
-    box-sizing: border-box;
 }
 .des{
     position: relative;
@@ -48,9 +46,7 @@ select:focus {
     margin-left: 2.6%;
     width: 52%;   
     margin-bottom: 10px ;
-    display: inline-block;   
     border: 1px solid rgb(180, 182, 182);  
-    box-sizing: border-box;
 }
 .permi{
     font-size: 15px;
@@ -74,9 +70,7 @@ select:focus {
     height: 140px;
     margin-left: 98px;  
     padding: 2px 2px;   
-    display: inline-block;   
     border: 1px solid rgb(180, 182, 182);  
-    box-sizing: border-box;
 }
 .div6{
     position: relative;
@@ -89,10 +83,8 @@ select:focus {
     margin-left: 25px;
     height: 140px;
     width: 32%;
-    padding: 2px 2px;   
-    display: inline-block;   
+    padding: 2px 2px;    
     border: 1px solid rgb(180, 182, 182);  
-    box-sizing: border-box;
 }
 .button3{
 padding: 5px 10px 5px 10px;
